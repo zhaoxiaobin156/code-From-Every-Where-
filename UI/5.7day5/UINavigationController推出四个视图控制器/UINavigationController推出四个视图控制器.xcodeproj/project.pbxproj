@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		878185961CDD9C3900367951 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 878185951CDD9C3900367951 /* main.m */; };
+		878185991CDD9C3900367951 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 878185981CDD9C3900367951 /* AppDelegate.m */; };
+		8781859C1CDD9C3900367951 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8781859B1CDD9C3900367951 /* ViewController.m */; };
+		8781859F1CDD9C3900367951 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8781859D1CDD9C3900367951 /* Main.storyboard */; };
+		878185A11CDD9C3900367951 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 878185A01CDD9C3900367951 /* Images.xcassets */; };
+		878185A41CDD9C3900367951 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 878185A21CDD9C3900367951 /* LaunchScreen.xib */; };
+		878185B01CDD9C3900367951 /* UINavigationController_________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 878185AF1CDD9C3900367951 /* UINavigationController_________Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		878185AA1CDD9C3900367951 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 878185881CDD9C3900367951 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8781858F1CDD9C3900367951;
+			remoteInfo = "UINavigationController推出四个视图控制器";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		878185901CDD9C3900367951 /* UINavigationController推出四个视图控制器.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UINavigationController推出四个视图控制器.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		878185941CDD9C3900367951 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		878185951CDD9C3900367951 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		878185971CDD9C3900367951 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		878185981CDD9C3900367951 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8781859A1CDD9C3900367951 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8781859B1CDD9C3900367951 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8781859E1CDD9C3900367951 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		878185A01CDD9C3900367951 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		878185A31CDD9C3900367951 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		878185A91CDD9C3900367951 /* UINavigationController推出四个视图控制器Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UINavigationController推出四个视图控制器Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		878185AE1CDD9C3900367951 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		878185AF1CDD9C3900367951 /* UINavigationController_________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController_________Tests.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8781858D1CDD9C3900367951 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		878185A61CDD9C3900367951 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		878185871CDD9C3900367951 = {
+			isa = PBXGroup;
+			children = (
+				878185921CDD9C3900367951 /* UINavigationController推出四个视图控制器 */,
+				878185AC1CDD9C3900367951 /* UINavigationController推出四个视图控制器Tests */,
+				878185911CDD9C3900367951 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		878185911CDD9C3900367951 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				878185901CDD9C3900367951 /* UINavigationController推出四个视图控制器.app */,
+				878185A91CDD9C3900367951 /* UINavigationController推出四个视图控制器Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		878185921CDD9C3900367951 /* UINavigationController推出四个视图控制器 */ = {
+			isa = PBXGroup;
+			children = (
+				878185971CDD9C3900367951 /* AppDelegate.h */,
+				878185981CDD9C3900367951 /* AppDelegate.m */,
+				8781859A1CDD9C3900367951 /* ViewController.h */,
+				8781859B1CDD9C3900367951 /* ViewController.m */,
+				8781859D1CDD9C3900367951 /* Main.storyboard */,
+				878185A01CDD9C3900367951 /* Images.xcassets */,
+				878185A21CDD9C3900367951 /* LaunchScreen.xib */,
+				878185931CDD9C3900367951 /* Supporting Files */,
+			);
+			path = "UINavigationController推出四个视图控制器";
+			sourceTree = "<group>";
+		};
+		878185931CDD9C3900367951 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				878185941CDD9C3900367951 /* Info.plist */,
+				878185951CDD9C3900367951 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		878185AC1CDD9C3900367951 /* UINavigationController推出四个视图控制器Tests */ = {
+			isa = PBXGroup;
+			children = (
+				878185AF1CDD9C3900367951 /* UINavigationController_________Tests.m */,
+				878185AD1CDD9C3900367951 /* Supporting Files */,
+			);
+			path = "UINavigationController推出四个视图控制器Tests";
+			sourceTree = "<group>";
+		};
+		878185AD1CDD9C3900367951 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				878185AE1CDD9C3900367951 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8781858F1CDD9C3900367951 /* UINavigationController推出四个视图控制器 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 878185B31CDD9C3900367951 /* Build configuration list for PBXNativeTarget "UINavigationController推出四个视图控制器" */;
+			buildPhases = (
+				8781858C1CDD9C3900367951 /* Sources */,
+				8781858D1CDD9C3900367951 /* Frameworks */,
+				8781858E1CDD9C3900367951 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UINavigationController推出四个视图控制器";
+			productName = "UINavigationController推出四个视图控制器";
+			productReference = 878185901CDD9C3900367951 /* UINavigationController推出四个视图控制器.app */;
+			productType = "com.apple.product-type.application";
+		};
+		878185A81CDD9C3900367951 /* UINavigationController推出四个视图控制器Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 878185B61CDD9C3900367951 /* Build configuration list for PBXNativeTarget "UINavigationController推出四个视图控制器Tests" */;
+			buildPhases = (
+				878185A51CDD9C3900367951 /* Sources */,
+				878185A61CDD9C3900367951 /* Frameworks */,
+				878185A71CDD9C3900367951 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				878185AB1CDD9C3900367951 /* PBXTargetDependency */,
+			);
+			name = "UINavigationController推出四个视图控制器Tests";
+			productName = "UINavigationController推出四个视图控制器Tests";
+			productReference = 878185A91CDD9C3900367951 /* UINavigationController推出四个视图控制器Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		878185881CDD9C3900367951 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "刘桂林";
+				TargetAttributes = {
+					8781858F1CDD9C3900367951 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					878185A81CDD9C3900367951 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 8781858F1CDD9C3900367951;
+					};
+				};
+			};
+			buildConfigurationList = 8781858B1CDD9C3900367951 /* Build configuration list for PBXProject "UINavigationController推出四个视图控制器" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 878185871CDD9C3900367951;
+			productRefGroup = 878185911CDD9C3900367951 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8781858F1CDD9C3900367951 /* UINavigationController推出四个视图控制器 */,
+				878185A81CDD9C3900367951 /* UINavigationController推出四个视图控制器Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8781858E1CDD9C3900367951 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8781859F1CDD9C3900367951 /* Main.storyboard in Resources */,
+				878185A41CDD9C3900367951 /* LaunchScreen.xib in Resources */,
+				878185A11CDD9C3900367951 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		878185A71CDD9C3900367951 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8781858C1CDD9C3900367951 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8781859C1CDD9C3900367951 /* ViewController.m in Sources */,
+				878185991CDD9C3900367951 /* AppDelegate.m in Sources */,
+				878185961CDD9C3900367951 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		878185A51CDD9C3900367951 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				878185B01CDD9C3900367951 /* UINavigationController_________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		878185AB1CDD9C3900367951 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8781858F1CDD9C3900367951 /* UINavigationController推出四个视图控制器 */;
+			targetProxy = 878185AA1CDD9C3900367951 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8781859D1CDD9C3900367951 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8781859E1CDD9C3900367951 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		878185A21CDD9C3900367951 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				878185A31CDD9C3900367951 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		878185B11CDD9C3900367951 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		878185B21CDD9C3900367951 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		878185B41CDD9C3900367951 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UINavigationController推出四个视图控制器/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		878185B51CDD9C3900367951 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UINavigationController推出四个视图控制器/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		878185B71CDD9C3900367951 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "UINavigationController推出四个视图控制器Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UINavigationController推出四个视图控制器.app/UINavigationController推出四个视图控制器";
+			};
+			name = Debug;
+		};
+		878185B81CDD9C3900367951 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "UINavigationController推出四个视图控制器Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UINavigationController推出四个视图控制器.app/UINavigationController推出四个视图控制器";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8781858B1CDD9C3900367951 /* Build configuration list for PBXProject "UINavigationController推出四个视图控制器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				878185B11CDD9C3900367951 /* Debug */,
+				878185B21CDD9C3900367951 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		878185B31CDD9C3900367951 /* Build configuration list for PBXNativeTarget "UINavigationController推出四个视图控制器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				878185B41CDD9C3900367951 /* Debug */,
+				878185B51CDD9C3900367951 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		878185B61CDD9C3900367951 /* Build configuration list for PBXNativeTarget "UINavigationController推出四个视图控制器Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				878185B71CDD9C3900367951 /* Debug */,
+				878185B81CDD9C3900367951 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 878185881CDD9C3900367951 /* Project object */;
+}

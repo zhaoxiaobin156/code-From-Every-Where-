@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="xfY-wp-DCC">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <scenes>
+        <!--Red-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Red" id="ueN-j9-t8J">
+                        <barButtonItem key="rightBarButtonItem" title="push" id="PRA-Gk-fD7">
+                            <connections>
+                                <segue destination="kHQ-ky-ucA" kind="push" id="OcM-jA-So4"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="544.79999999999995" y="354.52666666666664"/>
+        </scene>
+        <!--Yellow View Controller-->
+        <scene sceneID="D6r-WC-jhZ">
+            <objects>
+                <viewController storyboardIdentifier="yellow" id="MdI-jM-w5Z" customClass="YellowViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="OP7-sS-7ep">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8rD-4N-OQJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1432.5" y="354.5"/>
+        </scene>
+        <!--OrangeVC-->
+        <scene sceneID="ldn-ka-baQ">
+            <objects>
+                <viewController id="kHQ-ky-ucA" customClass="OrangeViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="aWh-Vi-fJe">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="OrangeVC" id="fgL-ow-Z8k">
+                        <barButtonItem key="rightBarButtonItem" title="推出未连线的视图" id="Etx-dn-RAH">
+                            <connections>
+                                <action selector="pushAction:" destination="kHQ-ky-ucA" id="aYv-aA-HSv"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ox5-GC-S2x" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="996.5" y="354.5"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="x0O-Kq-03c">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="xfY-wp-DCC" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="UjW-vJ-eAQ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="ZCu-Iz-uzt"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lr0-jR-BSi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="104.5" y="354.5"/>
+        </scene>
+    </scenes>
+</document>

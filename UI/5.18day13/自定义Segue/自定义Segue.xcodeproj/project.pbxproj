@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8780227D1CEC1936003E5DBA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8780227C1CEC1936003E5DBA /* main.m */; };
+		878022801CEC1936003E5DBA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8780227F1CEC1936003E5DBA /* AppDelegate.m */; };
+		878022831CEC1936003E5DBA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 878022821CEC1936003E5DBA /* ViewController.m */; };
+		878022861CEC1936003E5DBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 878022841CEC1936003E5DBA /* Main.storyboard */; };
+		878022881CEC1936003E5DBA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 878022871CEC1936003E5DBA /* Images.xcassets */; };
+		8780228B1CEC1936003E5DBA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 878022891CEC1936003E5DBA /* LaunchScreen.xib */; };
+		878022971CEC1936003E5DBA /* ___SegueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 878022961CEC1936003E5DBA /* ___SegueTests.m */; };
+		878022A21CEC1A6C003E5DBA /* RedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 878022A11CEC1A6C003E5DBA /* RedViewController.m */; };
+		878022A51CEC1AD8003E5DBA /* MySegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 878022A41CEC1AD8003E5DBA /* MySegue.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		878022911CEC1936003E5DBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8780226F1CEC1936003E5DBA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 878022761CEC1936003E5DBA;
+			remoteInfo = "自定义Segue";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		878022771CEC1936003E5DBA /* 自定义Segue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "自定义Segue.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8780227B1CEC1936003E5DBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8780227C1CEC1936003E5DBA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8780227E1CEC1936003E5DBA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8780227F1CEC1936003E5DBA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		878022811CEC1936003E5DBA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		878022821CEC1936003E5DBA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		878022851CEC1936003E5DBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		878022871CEC1936003E5DBA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8780228A1CEC1936003E5DBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		878022901CEC1936003E5DBA /* 自定义SegueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "自定义SegueTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		878022951CEC1936003E5DBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		878022961CEC1936003E5DBA /* ___SegueTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___SegueTests.m"; sourceTree = "<group>"; };
+		878022A01CEC1A6C003E5DBA /* RedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedViewController.h; sourceTree = "<group>"; };
+		878022A11CEC1A6C003E5DBA /* RedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedViewController.m; sourceTree = "<group>"; };
+		878022A31CEC1AD8003E5DBA /* MySegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MySegue.h; sourceTree = "<group>"; };
+		878022A41CEC1AD8003E5DBA /* MySegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MySegue.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		878022741CEC1936003E5DBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8780228D1CEC1936003E5DBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8780226E1CEC1936003E5DBA = {
+			isa = PBXGroup;
+			children = (
+				878022791CEC1936003E5DBA /* 自定义Segue */,
+				878022931CEC1936003E5DBA /* 自定义SegueTests */,
+				878022781CEC1936003E5DBA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		878022781CEC1936003E5DBA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				878022771CEC1936003E5DBA /* 自定义Segue.app */,
+				878022901CEC1936003E5DBA /* 自定义SegueTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		878022791CEC1936003E5DBA /* 自定义Segue */ = {
+			isa = PBXGroup;
+			children = (
+				8780227E1CEC1936003E5DBA /* AppDelegate.h */,
+				8780227F1CEC1936003E5DBA /* AppDelegate.m */,
+				878022811CEC1936003E5DBA /* ViewController.h */,
+				878022821CEC1936003E5DBA /* ViewController.m */,
+				878022841CEC1936003E5DBA /* Main.storyboard */,
+				878022A01CEC1A6C003E5DBA /* RedViewController.h */,
+				878022A11CEC1A6C003E5DBA /* RedViewController.m */,
+				878022A31CEC1AD8003E5DBA /* MySegue.h */,
+				878022A41CEC1AD8003E5DBA /* MySegue.m */,
+				878022871CEC1936003E5DBA /* Images.xcassets */,
+				878022891CEC1936003E5DBA /* LaunchScreen.xib */,
+				8780227A1CEC1936003E5DBA /* Supporting Files */,
+			);
+			path = "自定义Segue";
+			sourceTree = "<group>";
+		};
+		8780227A1CEC1936003E5DBA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8780227B1CEC1936003E5DBA /* Info.plist */,
+				8780227C1CEC1936003E5DBA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		878022931CEC1936003E5DBA /* 自定义SegueTests */ = {
+			isa = PBXGroup;
+			children = (
+				878022961CEC1936003E5DBA /* ___SegueTests.m */,
+				878022941CEC1936003E5DBA /* Supporting Files */,
+			);
+			path = "自定义SegueTests";
+			sourceTree = "<group>";
+		};
+		878022941CEC1936003E5DBA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				878022951CEC1936003E5DBA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		878022761CEC1936003E5DBA /* 自定义Segue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8780229A1CEC1936003E5DBA /* Build configuration list for PBXNativeTarget "自定义Segue" */;
+			buildPhases = (
+				878022731CEC1936003E5DBA /* Sources */,
+				878022741CEC1936003E5DBA /* Frameworks */,
+				878022751CEC1936003E5DBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "自定义Segue";
+			productName = "自定义Segue";
+			productReference = 878022771CEC1936003E5DBA /* 自定义Segue.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8780228F1CEC1936003E5DBA /* 自定义SegueTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8780229D1CEC1936003E5DBA /* Build configuration list for PBXNativeTarget "自定义SegueTests" */;
+			buildPhases = (
+				8780228C1CEC1936003E5DBA /* Sources */,
+				8780228D1CEC1936003E5DBA /* Frameworks */,
+				8780228E1CEC1936003E5DBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				878022921CEC1936003E5DBA /* PBXTargetDependency */,
+			);
+			name = "自定义SegueTests";
+			productName = "自定义SegueTests";
+			productReference = 878022901CEC1936003E5DBA /* 自定义SegueTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8780226F1CEC1936003E5DBA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "刘桂林";
+				TargetAttributes = {
+					878022761CEC1936003E5DBA = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					8780228F1CEC1936003E5DBA = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 878022761CEC1936003E5DBA;
+					};
+				};
+			};
+			buildConfigurationList = 878022721CEC1936003E5DBA /* Build configuration list for PBXProject "自定义Segue" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8780226E1CEC1936003E5DBA;
+			productRefGroup = 878022781CEC1936003E5DBA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				878022761CEC1936003E5DBA /* 自定义Segue */,
+				8780228F1CEC1936003E5DBA /* 自定义SegueTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		878022751CEC1936003E5DBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				878022861CEC1936003E5DBA /* Main.storyboard in Resources */,
+				8780228B1CEC1936003E5DBA /* LaunchScreen.xib in Resources */,
+				878022881CEC1936003E5DBA /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8780228E1CEC1936003E5DBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		878022731CEC1936003E5DBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				878022A51CEC1AD8003E5DBA /* MySegue.m in Sources */,
+				878022A21CEC1A6C003E5DBA /* RedViewController.m in Sources */,
+				878022831CEC1936003E5DBA /* ViewController.m in Sources */,
+				878022801CEC1936003E5DBA /* AppDelegate.m in Sources */,
+				8780227D1CEC1936003E5DBA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8780228C1CEC1936003E5DBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				878022971CEC1936003E5DBA /* ___SegueTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		878022921CEC1936003E5DBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 878022761CEC1936003E5DBA /* 自定义Segue */;
+			targetProxy = 878022911CEC1936003E5DBA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		878022841CEC1936003E5DBA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				878022851CEC1936003E5DBA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		878022891CEC1936003E5DBA /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8780228A1CEC1936003E5DBA /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		878022981CEC1936003E5DBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		878022991CEC1936003E5DBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8780229B1CEC1936003E5DBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "自定义Segue/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8780229C1CEC1936003E5DBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "自定义Segue/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8780229E1CEC1936003E5DBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "自定义SegueTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/自定义Segue.app/自定义Segue";
+			};
+			name = Debug;
+		};
+		8780229F1CEC1936003E5DBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "自定义SegueTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/自定义Segue.app/自定义Segue";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		878022721CEC1936003E5DBA /* Build configuration list for PBXProject "自定义Segue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				878022981CEC1936003E5DBA /* Debug */,
+				878022991CEC1936003E5DBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8780229A1CEC1936003E5DBA /* Build configuration list for PBXNativeTarget "自定义Segue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8780229B1CEC1936003E5DBA /* Debug */,
+				8780229C1CEC1936003E5DBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8780229D1CEC1936003E5DBA /* Build configuration list for PBXNativeTarget "自定义SegueTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8780229E1CEC1936003E5DBA /* Debug */,
+				8780229F1CEC1936003E5DBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8780226F1CEC1936003E5DBA /* Project object */;
+}

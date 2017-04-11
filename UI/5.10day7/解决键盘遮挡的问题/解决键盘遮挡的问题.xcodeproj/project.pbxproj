@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		877968C01CE1B20100DB8703 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 877968BF1CE1B20100DB8703 /* main.m */; };
+		877968C31CE1B20100DB8703 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 877968C21CE1B20100DB8703 /* AppDelegate.m */; };
+		877968C61CE1B20100DB8703 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 877968C51CE1B20100DB8703 /* ViewController.m */; };
+		877968C91CE1B20100DB8703 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 877968C71CE1B20100DB8703 /* Main.storyboard */; };
+		877968CB1CE1B20100DB8703 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 877968CA1CE1B20100DB8703 /* Images.xcassets */; };
+		877968CE1CE1B20100DB8703 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 877968CC1CE1B20100DB8703 /* LaunchScreen.xib */; };
+		877968DA1CE1B20100DB8703 /* _________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 877968D91CE1B20100DB8703 /* _________Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		877968D41CE1B20100DB8703 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 877968B21CE1B20100DB8703 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 877968B91CE1B20100DB8703;
+			remoteInfo = "解决键盘遮挡的问题";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		877968BA1CE1B20100DB8703 /* 解决键盘遮挡的问题.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "解决键盘遮挡的问题.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		877968BE1CE1B20100DB8703 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		877968BF1CE1B20100DB8703 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		877968C11CE1B20100DB8703 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		877968C21CE1B20100DB8703 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		877968C41CE1B20100DB8703 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		877968C51CE1B20100DB8703 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		877968C81CE1B20100DB8703 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		877968CA1CE1B20100DB8703 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		877968CD1CE1B20100DB8703 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		877968D31CE1B20100DB8703 /* 解决键盘遮挡的问题Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "解决键盘遮挡的问题Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		877968D81CE1B20100DB8703 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		877968D91CE1B20100DB8703 /* _________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_________Tests.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		877968B71CE1B20100DB8703 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		877968D01CE1B20100DB8703 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		877968B11CE1B20100DB8703 = {
+			isa = PBXGroup;
+			children = (
+				877968BC1CE1B20100DB8703 /* 解决键盘遮挡的问题 */,
+				877968D61CE1B20100DB8703 /* 解决键盘遮挡的问题Tests */,
+				877968BB1CE1B20100DB8703 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		877968BB1CE1B20100DB8703 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				877968BA1CE1B20100DB8703 /* 解决键盘遮挡的问题.app */,
+				877968D31CE1B20100DB8703 /* 解决键盘遮挡的问题Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		877968BC1CE1B20100DB8703 /* 解决键盘遮挡的问题 */ = {
+			isa = PBXGroup;
+			children = (
+				877968C11CE1B20100DB8703 /* AppDelegate.h */,
+				877968C21CE1B20100DB8703 /* AppDelegate.m */,
+				877968C41CE1B20100DB8703 /* ViewController.h */,
+				877968C51CE1B20100DB8703 /* ViewController.m */,
+				877968C71CE1B20100DB8703 /* Main.storyboard */,
+				877968CA1CE1B20100DB8703 /* Images.xcassets */,
+				877968CC1CE1B20100DB8703 /* LaunchScreen.xib */,
+				877968BD1CE1B20100DB8703 /* Supporting Files */,
+			);
+			path = "解决键盘遮挡的问题";
+			sourceTree = "<group>";
+		};
+		877968BD1CE1B20100DB8703 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				877968BE1CE1B20100DB8703 /* Info.plist */,
+				877968BF1CE1B20100DB8703 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		877968D61CE1B20100DB8703 /* 解决键盘遮挡的问题Tests */ = {
+			isa = PBXGroup;
+			children = (
+				877968D91CE1B20100DB8703 /* _________Tests.m */,
+				877968D71CE1B20100DB8703 /* Supporting Files */,
+			);
+			path = "解决键盘遮挡的问题Tests";
+			sourceTree = "<group>";
+		};
+		877968D71CE1B20100DB8703 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				877968D81CE1B20100DB8703 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		877968B91CE1B20100DB8703 /* 解决键盘遮挡的问题 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 877968DD1CE1B20100DB8703 /* Build configuration list for PBXNativeTarget "解决键盘遮挡的问题" */;
+			buildPhases = (
+				877968B61CE1B20100DB8703 /* Sources */,
+				877968B71CE1B20100DB8703 /* Frameworks */,
+				877968B81CE1B20100DB8703 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "解决键盘遮挡的问题";
+			productName = "解决键盘遮挡的问题";
+			productReference = 877968BA1CE1B20100DB8703 /* 解决键盘遮挡的问题.app */;
+			productType = "com.apple.product-type.application";
+		};
+		877968D21CE1B20100DB8703 /* 解决键盘遮挡的问题Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 877968E01CE1B20100DB8703 /* Build configuration list for PBXNativeTarget "解决键盘遮挡的问题Tests" */;
+			buildPhases = (
+				877968CF1CE1B20100DB8703 /* Sources */,
+				877968D01CE1B20100DB8703 /* Frameworks */,
+				877968D11CE1B20100DB8703 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				877968D51CE1B20100DB8703 /* PBXTargetDependency */,
+			);
+			name = "解决键盘遮挡的问题Tests";
+			productName = "解决键盘遮挡的问题Tests";
+			productReference = 877968D31CE1B20100DB8703 /* 解决键盘遮挡的问题Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		877968B21CE1B20100DB8703 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "刘桂林";
+				TargetAttributes = {
+					877968B91CE1B20100DB8703 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					877968D21CE1B20100DB8703 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 877968B91CE1B20100DB8703;
+					};
+				};
+			};
+			buildConfigurationList = 877968B51CE1B20100DB8703 /* Build configuration list for PBXProject "解决键盘遮挡的问题" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 877968B11CE1B20100DB8703;
+			productRefGroup = 877968BB1CE1B20100DB8703 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				877968B91CE1B20100DB8703 /* 解决键盘遮挡的问题 */,
+				877968D21CE1B20100DB8703 /* 解决键盘遮挡的问题Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		877968B81CE1B20100DB8703 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				877968C91CE1B20100DB8703 /* Main.storyboard in Resources */,
+				877968CE1CE1B20100DB8703 /* LaunchScreen.xib in Resources */,
+				877968CB1CE1B20100DB8703 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		877968D11CE1B20100DB8703 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		877968B61CE1B20100DB8703 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				877968C61CE1B20100DB8703 /* ViewController.m in Sources */,
+				877968C31CE1B20100DB8703 /* AppDelegate.m in Sources */,
+				877968C01CE1B20100DB8703 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		877968CF1CE1B20100DB8703 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				877968DA1CE1B20100DB8703 /* _________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		877968D51CE1B20100DB8703 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 877968B91CE1B20100DB8703 /* 解决键盘遮挡的问题 */;
+			targetProxy = 877968D41CE1B20100DB8703 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		877968C71CE1B20100DB8703 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				877968C81CE1B20100DB8703 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		877968CC1CE1B20100DB8703 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				877968CD1CE1B20100DB8703 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		877968DB1CE1B20100DB8703 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		877968DC1CE1B20100DB8703 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		877968DE1CE1B20100DB8703 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "解决键盘遮挡的问题/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		877968DF1CE1B20100DB8703 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "解决键盘遮挡的问题/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		877968E11CE1B20100DB8703 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "解决键盘遮挡的问题Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/解决键盘遮挡的问题.app/解决键盘遮挡的问题";
+			};
+			name = Debug;
+		};
+		877968E21CE1B20100DB8703 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "解决键盘遮挡的问题Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/解决键盘遮挡的问题.app/解决键盘遮挡的问题";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		877968B51CE1B20100DB8703 /* Build configuration list for PBXProject "解决键盘遮挡的问题" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				877968DB1CE1B20100DB8703 /* Debug */,
+				877968DC1CE1B20100DB8703 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		877968DD1CE1B20100DB8703 /* Build configuration list for PBXNativeTarget "解决键盘遮挡的问题" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				877968DE1CE1B20100DB8703 /* Debug */,
+				877968DF1CE1B20100DB8703 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		877968E01CE1B20100DB8703 /* Build configuration list for PBXNativeTarget "解决键盘遮挡的问题Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				877968E11CE1B20100DB8703 /* Debug */,
+				877968E21CE1B20100DB8703 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 877968B21CE1B20100DB8703 /* Project object */;
+}

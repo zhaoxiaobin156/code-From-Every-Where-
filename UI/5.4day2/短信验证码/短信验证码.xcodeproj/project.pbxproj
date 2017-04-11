@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8740C67D1CD9D8BF00CEFD0C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8740C67C1CD9D8BF00CEFD0C /* main.m */; };
+		8740C6801CD9D8BF00CEFD0C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8740C67F1CD9D8BF00CEFD0C /* AppDelegate.m */; };
+		8740C6881CD9D8BF00CEFD0C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8740C6871CD9D8BF00CEFD0C /* Images.xcassets */; };
+		8740C68B1CD9D8BF00CEFD0C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8740C6891CD9D8BF00CEFD0C /* LaunchScreen.xib */; };
+		8740C6971CD9D8BF00CEFD0C /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8740C6961CD9D8BF00CEFD0C /* _____Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8740C6911CD9D8BF00CEFD0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8740C66F1CD9D8BF00CEFD0C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8740C6761CD9D8BF00CEFD0C;
+			remoteInfo = "短信验证码";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8740C6771CD9D8BF00CEFD0C /* 短信验证码.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "短信验证码.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8740C67B1CD9D8BF00CEFD0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8740C67C1CD9D8BF00CEFD0C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8740C67E1CD9D8BF00CEFD0C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8740C67F1CD9D8BF00CEFD0C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8740C6871CD9D8BF00CEFD0C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8740C68A1CD9D8BF00CEFD0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8740C6901CD9D8BF00CEFD0C /* 短信验证码Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "短信验证码Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8740C6951CD9D8BF00CEFD0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8740C6961CD9D8BF00CEFD0C /* _____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____Tests.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8740C6741CD9D8BF00CEFD0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8740C68D1CD9D8BF00CEFD0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8740C66E1CD9D8BF00CEFD0C = {
+			isa = PBXGroup;
+			children = (
+				8740C6791CD9D8BF00CEFD0C /* 短信验证码 */,
+				8740C6931CD9D8BF00CEFD0C /* 短信验证码Tests */,
+				8740C6781CD9D8BF00CEFD0C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8740C6781CD9D8BF00CEFD0C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8740C6771CD9D8BF00CEFD0C /* 短信验证码.app */,
+				8740C6901CD9D8BF00CEFD0C /* 短信验证码Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8740C6791CD9D8BF00CEFD0C /* 短信验证码 */ = {
+			isa = PBXGroup;
+			children = (
+				8740C67E1CD9D8BF00CEFD0C /* AppDelegate.h */,
+				8740C67F1CD9D8BF00CEFD0C /* AppDelegate.m */,
+				8740C6871CD9D8BF00CEFD0C /* Images.xcassets */,
+				8740C6891CD9D8BF00CEFD0C /* LaunchScreen.xib */,
+				8740C67A1CD9D8BF00CEFD0C /* Supporting Files */,
+			);
+			path = "短信验证码";
+			sourceTree = "<group>";
+		};
+		8740C67A1CD9D8BF00CEFD0C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8740C67B1CD9D8BF00CEFD0C /* Info.plist */,
+				8740C67C1CD9D8BF00CEFD0C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8740C6931CD9D8BF00CEFD0C /* 短信验证码Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8740C6961CD9D8BF00CEFD0C /* _____Tests.m */,
+				8740C6941CD9D8BF00CEFD0C /* Supporting Files */,
+			);
+			path = "短信验证码Tests";
+			sourceTree = "<group>";
+		};
+		8740C6941CD9D8BF00CEFD0C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8740C6951CD9D8BF00CEFD0C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8740C6761CD9D8BF00CEFD0C /* 短信验证码 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8740C69A1CD9D8BF00CEFD0C /* Build configuration list for PBXNativeTarget "短信验证码" */;
+			buildPhases = (
+				8740C6731CD9D8BF00CEFD0C /* Sources */,
+				8740C6741CD9D8BF00CEFD0C /* Frameworks */,
+				8740C6751CD9D8BF00CEFD0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "短信验证码";
+			productName = "短信验证码";
+			productReference = 8740C6771CD9D8BF00CEFD0C /* 短信验证码.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8740C68F1CD9D8BF00CEFD0C /* 短信验证码Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8740C69D1CD9D8BF00CEFD0C /* Build configuration list for PBXNativeTarget "短信验证码Tests" */;
+			buildPhases = (
+				8740C68C1CD9D8BF00CEFD0C /* Sources */,
+				8740C68D1CD9D8BF00CEFD0C /* Frameworks */,
+				8740C68E1CD9D8BF00CEFD0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8740C6921CD9D8BF00CEFD0C /* PBXTargetDependency */,
+			);
+			name = "短信验证码Tests";
+			productName = "短信验证码Tests";
+			productReference = 8740C6901CD9D8BF00CEFD0C /* 短信验证码Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8740C66F1CD9D8BF00CEFD0C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "刘桂林";
+				TargetAttributes = {
+					8740C6761CD9D8BF00CEFD0C = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					8740C68F1CD9D8BF00CEFD0C = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 8740C6761CD9D8BF00CEFD0C;
+					};
+				};
+			};
+			buildConfigurationList = 8740C6721CD9D8BF00CEFD0C /* Build configuration list for PBXProject "短信验证码" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8740C66E1CD9D8BF00CEFD0C;
+			productRefGroup = 8740C6781CD9D8BF00CEFD0C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8740C6761CD9D8BF00CEFD0C /* 短信验证码 */,
+				8740C68F1CD9D8BF00CEFD0C /* 短信验证码Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8740C6751CD9D8BF00CEFD0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8740C68B1CD9D8BF00CEFD0C /* LaunchScreen.xib in Resources */,
+				8740C6881CD9D8BF00CEFD0C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8740C68E1CD9D8BF00CEFD0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8740C6731CD9D8BF00CEFD0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8740C6801CD9D8BF00CEFD0C /* AppDelegate.m in Sources */,
+				8740C67D1CD9D8BF00CEFD0C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8740C68C1CD9D8BF00CEFD0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8740C6971CD9D8BF00CEFD0C /* _____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8740C6921CD9D8BF00CEFD0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8740C6761CD9D8BF00CEFD0C /* 短信验证码 */;
+			targetProxy = 8740C6911CD9D8BF00CEFD0C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8740C6891CD9D8BF00CEFD0C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8740C68A1CD9D8BF00CEFD0C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8740C6981CD9D8BF00CEFD0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8740C6991CD9D8BF00CEFD0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8740C69B1CD9D8BF00CEFD0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "短信验证码/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8740C69C1CD9D8BF00CEFD0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "短信验证码/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8740C69E1CD9D8BF00CEFD0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "短信验证码Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/短信验证码.app/短信验证码";
+			};
+			name = Debug;
+		};
+		8740C69F1CD9D8BF00CEFD0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "短信验证码Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/短信验证码.app/短信验证码";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8740C6721CD9D8BF00CEFD0C /* Build configuration list for PBXProject "短信验证码" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8740C6981CD9D8BF00CEFD0C /* Debug */,
+				8740C6991CD9D8BF00CEFD0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8740C69A1CD9D8BF00CEFD0C /* Build configuration list for PBXNativeTarget "短信验证码" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8740C69B1CD9D8BF00CEFD0C /* Debug */,
+				8740C69C1CD9D8BF00CEFD0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8740C69D1CD9D8BF00CEFD0C /* Build configuration list for PBXNativeTarget "短信验证码Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8740C69E1CD9D8BF00CEFD0C /* Debug */,
+				8740C69F1CD9D8BF00CEFD0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8740C66F1CD9D8BF00CEFD0C /* Project object */;
+}

@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		877969241CE1BD1500DB8703 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 877969231CE1BD1500DB8703 /* main.m */; };
+		877969271CE1BD1500DB8703 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 877969261CE1BD1500DB8703 /* AppDelegate.m */; };
+		8779692A1CE1BD1500DB8703 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 877969291CE1BD1500DB8703 /* ViewController.m */; };
+		8779692D1CE1BD1500DB8703 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8779692B1CE1BD1500DB8703 /* Main.storyboard */; };
+		8779692F1CE1BD1500DB8703 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8779692E1CE1BD1500DB8703 /* Images.xcassets */; };
+		877969321CE1BD1500DB8703 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 877969301CE1BD1500DB8703 /* LaunchScreen.xib */; };
+		8779693E1CE1BD1500DB8703 /* ___________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8779693D1CE1BD1500DB8703 /* ___________Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		877969381CE1BD1500DB8703 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 877969161CE1BD1500DB8703 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8779691D1CE1BD1500DB8703;
+			remoteInfo = "判断程序是否第一次启动";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8779691E1CE1BD1500DB8703 /* 判断程序是否第一次启动.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "判断程序是否第一次启动.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		877969221CE1BD1500DB8703 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		877969231CE1BD1500DB8703 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		877969251CE1BD1500DB8703 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		877969261CE1BD1500DB8703 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		877969281CE1BD1500DB8703 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		877969291CE1BD1500DB8703 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8779692C1CE1BD1500DB8703 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8779692E1CE1BD1500DB8703 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		877969311CE1BD1500DB8703 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		877969371CE1BD1500DB8703 /* 判断程序是否第一次启动Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "判断程序是否第一次启动Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8779693C1CE1BD1500DB8703 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8779693D1CE1BD1500DB8703 /* ___________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___________Tests.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8779691B1CE1BD1500DB8703 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		877969341CE1BD1500DB8703 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		877969151CE1BD1500DB8703 = {
+			isa = PBXGroup;
+			children = (
+				877969201CE1BD1500DB8703 /* 判断程序是否第一次启动 */,
+				8779693A1CE1BD1500DB8703 /* 判断程序是否第一次启动Tests */,
+				8779691F1CE1BD1500DB8703 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8779691F1CE1BD1500DB8703 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8779691E1CE1BD1500DB8703 /* 判断程序是否第一次启动.app */,
+				877969371CE1BD1500DB8703 /* 判断程序是否第一次启动Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		877969201CE1BD1500DB8703 /* 判断程序是否第一次启动 */ = {
+			isa = PBXGroup;
+			children = (
+				877969251CE1BD1500DB8703 /* AppDelegate.h */,
+				877969261CE1BD1500DB8703 /* AppDelegate.m */,
+				877969281CE1BD1500DB8703 /* ViewController.h */,
+				877969291CE1BD1500DB8703 /* ViewController.m */,
+				8779692B1CE1BD1500DB8703 /* Main.storyboard */,
+				8779692E1CE1BD1500DB8703 /* Images.xcassets */,
+				877969301CE1BD1500DB8703 /* LaunchScreen.xib */,
+				877969211CE1BD1500DB8703 /* Supporting Files */,
+			);
+			path = "判断程序是否第一次启动";
+			sourceTree = "<group>";
+		};
+		877969211CE1BD1500DB8703 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				877969221CE1BD1500DB8703 /* Info.plist */,
+				877969231CE1BD1500DB8703 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8779693A1CE1BD1500DB8703 /* 判断程序是否第一次启动Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8779693D1CE1BD1500DB8703 /* ___________Tests.m */,
+				8779693B1CE1BD1500DB8703 /* Supporting Files */,
+			);
+			path = "判断程序是否第一次启动Tests";
+			sourceTree = "<group>";
+		};
+		8779693B1CE1BD1500DB8703 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8779693C1CE1BD1500DB8703 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8779691D1CE1BD1500DB8703 /* 判断程序是否第一次启动 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 877969411CE1BD1500DB8703 /* Build configuration list for PBXNativeTarget "判断程序是否第一次启动" */;
+			buildPhases = (
+				8779691A1CE1BD1500DB8703 /* Sources */,
+				8779691B1CE1BD1500DB8703 /* Frameworks */,
+				8779691C1CE1BD1500DB8703 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "判断程序是否第一次启动";
+			productName = "判断程序是否第一次启动";
+			productReference = 8779691E1CE1BD1500DB8703 /* 判断程序是否第一次启动.app */;
+			productType = "com.apple.product-type.application";
+		};
+		877969361CE1BD1500DB8703 /* 判断程序是否第一次启动Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 877969441CE1BD1500DB8703 /* Build configuration list for PBXNativeTarget "判断程序是否第一次启动Tests" */;
+			buildPhases = (
+				877969331CE1BD1500DB8703 /* Sources */,
+				877969341CE1BD1500DB8703 /* Frameworks */,
+				877969351CE1BD1500DB8703 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				877969391CE1BD1500DB8703 /* PBXTargetDependency */,
+			);
+			name = "判断程序是否第一次启动Tests";
+			productName = "判断程序是否第一次启动Tests";
+			productReference = 877969371CE1BD1500DB8703 /* 判断程序是否第一次启动Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		877969161CE1BD1500DB8703 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "刘桂林";
+				TargetAttributes = {
+					8779691D1CE1BD1500DB8703 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					877969361CE1BD1500DB8703 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 8779691D1CE1BD1500DB8703;
+					};
+				};
+			};
+			buildConfigurationList = 877969191CE1BD1500DB8703 /* Build configuration list for PBXProject "判断程序是否第一次启动" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 877969151CE1BD1500DB8703;
+			productRefGroup = 8779691F1CE1BD1500DB8703 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8779691D1CE1BD1500DB8703 /* 判断程序是否第一次启动 */,
+				877969361CE1BD1500DB8703 /* 判断程序是否第一次启动Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8779691C1CE1BD1500DB8703 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8779692D1CE1BD1500DB8703 /* Main.storyboard in Resources */,
+				877969321CE1BD1500DB8703 /* LaunchScreen.xib in Resources */,
+				8779692F1CE1BD1500DB8703 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		877969351CE1BD1500DB8703 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8779691A1CE1BD1500DB8703 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8779692A1CE1BD1500DB8703 /* ViewController.m in Sources */,
+				877969271CE1BD1500DB8703 /* AppDelegate.m in Sources */,
+				877969241CE1BD1500DB8703 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		877969331CE1BD1500DB8703 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8779693E1CE1BD1500DB8703 /* ___________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		877969391CE1BD1500DB8703 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8779691D1CE1BD1500DB8703 /* 判断程序是否第一次启动 */;
+			targetProxy = 877969381CE1BD1500DB8703 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8779692B1CE1BD1500DB8703 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8779692C1CE1BD1500DB8703 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		877969301CE1BD1500DB8703 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				877969311CE1BD1500DB8703 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8779693F1CE1BD1500DB8703 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		877969401CE1BD1500DB8703 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		877969421CE1BD1500DB8703 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "判断程序是否第一次启动/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		877969431CE1BD1500DB8703 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "判断程序是否第一次启动/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		877969451CE1BD1500DB8703 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "判断程序是否第一次启动Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/判断程序是否第一次启动.app/判断程序是否第一次启动";
+			};
+			name = Debug;
+		};
+		877969461CE1BD1500DB8703 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "判断程序是否第一次启动Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/判断程序是否第一次启动.app/判断程序是否第一次启动";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		877969191CE1BD1500DB8703 /* Build configuration list for PBXProject "判断程序是否第一次启动" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8779693F1CE1BD1500DB8703 /* Debug */,
+				877969401CE1BD1500DB8703 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		877969411CE1BD1500DB8703 /* Build configuration list for PBXNativeTarget "判断程序是否第一次启动" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				877969421CE1BD1500DB8703 /* Debug */,
+				877969431CE1BD1500DB8703 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		877969441CE1BD1500DB8703 /* Build configuration list for PBXNativeTarget "判断程序是否第一次启动Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				877969451CE1BD1500DB8703 /* Debug */,
+				877969461CE1BD1500DB8703 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 877969161CE1BD1500DB8703 /* Project object */;
+}

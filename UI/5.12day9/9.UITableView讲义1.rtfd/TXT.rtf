@@ -1,0 +1,156 @@
+{\rtf1\ansi\ansicpg936\cocoartf1348\cocoasubrtf170
+{\fonttbl\f0\fnil\fcharset134 STHeitiSC-Light;\f1\fswiss\fcharset0 Helvetica;\f2\fnil\fcharset134 STXihei;
+}
+{\colortbl;\red255\green255\blue255;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww21200\viewh12880\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+
+\f0\fs44 \cf0 \'d6\'aa\'ca\'b6\'b5\'e3:\
+	1.UITableView\'ca\'b9\'d3\'c3\
+	2.UITableView\'b7\'d6\'b6\'ce\'b9\'a6\'c4\'dc\
+	3.UITableViewCell\'d6\'d8\'d3\'c3\'bb\'fa\'d6\'c6\
+\
+=======================\
+UITableView\'ca\'b9\'d3\'c3\
+    1.UITableView\'d7\'f7\'d3\'c3\
+    2.UITableView\'b4\'b4\'bd\'a8\
+    	- (id)initWithFrame:(CGRect)frame style:(UITableViewStyle)style;\
+	UITableViewStyle:\
+		UITableViewStylePlain		      \'c1\'d0\'b1\'ed\'c4\'a3\'ca\'bd\
+    		UITableViewStyleGrouped 	      \'b7\'d6\'d7\'e9\'c4\'a3\'ca\'bd\
+\
+\
+    3.UITableView\'b9\'d8\'c1\'aa\'ca\'fd\'be\'dd\
+      1\'a3\'a9tableView\'cd\'a8\'b9\'fd\'b4\'fa\'c0\'ed\'b9\'d8\'c1\'aa\'ca\'fd\'be\'dd\
+   \
+    4.NSIndexPath\
+      \'d6\'f7\'d2\'aa\'d3\'c3\'c0\'b4\'b1\'ea\'ca\'b6\'b5\'b1\'c7\'b0cell\'b5\'c4\'d4\'datableView\'d6\'d0\'b5\'c4\'ce\'bb\'d6\'c3\
+      \'b8\'c3\'b6\'d4\'cf\'f3\'d3\'d0section\'ba\'cdrow\'c1\'bd\'b8\'f6\'ca\'f4\'d0\'d4,\
+      \'c7\'b0\'d5\'df\'b1\'ea\'ca\'b6\'b5\'b1\'c7\'b0cell\'b4\'a6\'d3\'da\'b5\'da\'bc\'b8\'b8\'f6section\'d6\'d0\
+      \'ba\'f3\'d5\'df\'b4\'fa\'b1\'ed\'d4\'da\'b8\'c3section\'d6\'d0\'b5\'c4\'b5\'da\'bc\'b8\'d0\'d0\
+\
+    5.UITableViewCell\'bd\'e9\'c9\'dc\
+      1\'a3\'a9\'b4\'b4\'bd\'a8\'b7\'bd\'ca\'bd\
+       - (id)initWithStyle:(UITableViewCellStyle)style \
+	   reuseIdentifier:(NSString *)reuseIdentifier\
+\
+	UITableViewCellStyle:\
+		UITableViewCellStyleDefault      
+\f1\fs24 {{\NeXTGraphic Pasted Graphic.tiff \width6340 \height980
+}¬}\
+
+\f0\fs44 \
+		UITableViewCellStyleValue1       
+\f1\fs24 {{\NeXTGraphic Pasted Graphic 2.tiff \width6240 \height1020
+}¬}\
+
+\f0\fs44 \
+		UITableViewCellStyleValue2       
+\f1\fs24 {{\NeXTGraphic Pasted Graphic 3.tiff \width6380 \height1120
+}¬}\
+
+\f0\fs44 \
+		UITableViewCellStyleSubtitle      
+\f1\fs24 {{\NeXTGraphic Pasted Graphic 1.tiff \width6220 \height860
+}¬}\
+\
+\
+	
+\f0\fs48 2)cell\'d3\'b5\'d3\'d0\'d2\'bb\'b8\'f6\CocoaLigature0 contentView,\'bf\'c9\'d2\'d4\'b6\'d4\'d5\'e2\'b8\'f6view\'bd\'f8\'d0\'d0\'b6\'a8\'d6\'c6
+\fs26 \CocoaLigature1 \
+	
+\fs48 \CocoaLigature0 @property (nonatomic, readonly, retain) UIView      *contentView;\
+\
+\'c1\'b7\'cf\'b0:\'b4\'b4\'bd\'a8\'d2\'bb\'b8\'f6\'b1\'ed\'b8\'f1\'ca\'d3\'cd\'bc.cell\'d3\'d0\'cd\'bc\'c6\'ac.textLabel\'c9\'cf\'cf\'d4\'ca\'be\'b5\'b1\'c7\'b0\'d7\'e9\'ba\'cd\'b5\'b1\'c7\'b0\'d0\'d0.\'c5\'bc\'ca\'fd\'d0\'d0\'b1\'b3\'be\'b0\'d1\'d5\'c9\'ab\'ce\'aa\'c2\'cc\'c9\'ab,\'c6\'e6\'ca\'fd\'d0\'d0\'b1\'b3\'be\'b0\'d1\'d5\'c9\'ab\'ce\'aa\'ba\'ec\'c9\'ab\
+          
+\f1\fs24 \CocoaLigature1 {{\NeXTGraphic Pasted Graphic 5.tiff \width5620 \height2700
+}¬}
+\f0\fs44 \
+\
+=======================\
+UITableView\'b7\'d6\'b6\'ce\'b9\'a6\'c4\'dc\
+   1.\'c9\'e8\'d6\'c3tableView\'b5\'c4\'d1\'f9\'ca\'bd\
+     UITableViewStyleGrouped\
+   2.\'c9\'e8\'d6\'c3\'b4\'fa\'c0\'ed\
+     1\'a3\'a9\'c9\'e8\'d6\'c3\'b6\'ce\'ca\'fd:\'c4\'ac\'c8\'cf\'b7\'b5\'bb\'d81\
+     	- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView\
+\
+=======================\
+UITableViewCell\'b8\'b4\'d3\'c3\'bb\'fa\'d6\'c6\
+   \'cb\'bc\'bf\'bc:\'ca\'b2\'c3\'b4\'ca\'c7\'b8\'b4\'d3\'c3,\'b8\'b4\'d3\'c3\'d3\'d0\'ca\'b2\'c3\'b4\'ba\'c3\'b4\'a6\
+    1.cell\'d6\'d8\'d3\'c3\'b7\'bd\'ca\'bd\
+	- (id)dequeueReusableCellWithIdentifier:(NSString *)identifier; \
+    2.\'b8\'b4\'d3\'c3\'b5\'c4\'ce\'ca\'cc\'e2\
+	\'b5\'da\'d2\'bb\'b4\'cedequeue\'b5\'c4\'ca\'b1\'ba\'f2\'bf\'c9\'c4\'dc\'bb\'b9\'b2\'bb\'b4\'e6\'d4\'da\'b8\'c3cell,\'cb\'f9\'d2\'d4\'d0\'e8\'d2\'aa\'c5\'d0\'b6\'cf\
+	\'c8\'e7\'b9\'fb\'b6\'d3\'c1\'d0\'d6\'d0\'c3\'bb\'d3\'d0\'b8\'c3cell\'b5\'c4\'bb\'b0,\'d4\'f2\'d0\'e8\'d2\'aaalloc\'d2\'bb\'b8\'f6\
+\
+=======================\
+UITableView\'b3\'a3\'d3\'c3\'b7\'bd\'b7\'a8		\
+	UITableViewDataSource 	\
+	UITableViewDelegate\
+  	1\'a3\'a9\'c9\'e8\'d6\'c3\'d0\'d0\'b8\'df\
+	  - (CGFloat)tableView:(UITableView *)tableView \
+       heightForRowAtIndexPath:(NSIndexPath *)indexPath\
+\
+	2\'a3\'a9\'c9\'e8\'d6\'c3\'d7\'e9\'cd\'b7\'b1\'ea\'cc\'e2\
+	   - (NSString *)tableView:(UITableView *)tableView \
+	  titleForHeaderInSection:(NSInteger)section\
+\
+	3\'a3\'a9\'c9\'e8\'d6\'c3\'d7\'e9\'ce\'b2\'b1\'ea\'cc\'e2\
+	   - (NSString *)tableView:(UITableView *)tableView \
+	  titleForFooterInSection:(NSInteger)section\
+\
+     4\'a3\'a9\'c8\'e7\'ba\'ce\'d7\'f6\'cb\'f7\'d2\'fd\
+	  - (NSArray *)sectionIndexTitlesForTableView:(UITableView *)tableView\
+\
+\'c1\'b7\'cf\'b0:\'b4\'b4\'bd\'a8\'d2\'bb\'b8\'f6\'b1\'ed\'b8\'f1.\'d3\'d05\'b8\'f6\'b6\'ce,\'c3\'bf\'b8\'f6\'b6\'ce\'d3\'d05\'d0\'d0.\'b6\'ce\'cd\'b7\'b1\'ea\'cc\'e2\'b7\'d6\'b1\'f0\'ce\'aa:\'b1\'b1\'be\'a9,\'c9\'ee\'db\'da,\'c9\'cf\'ba\'a3,\'b9\'e3\'d6\'dd,\'b3\'c9\'b6\'bc.\
+         \'b6\'ce\'ce\'b2\'b1\'ea\'cc\'e2\'b7\'d6\'b1\'f0\'ce\'aa:\'b9\'e3\'b6\'ab,\'b9\'e3\'ce\'f7,\'ba\'fe\'c4\'cf,\'ba\'fe\'b1\'b1,\'b8\'a3\'bd\'a8.\
+	    \'c3\'bf\'b8\'f6cell\'c4\'da\'c8\'dd\'ce\'aa\'a1\'b1xx\'b6\'cexx\'d0\'d0\'a1\'b1.\
+\
+     5\'a3\'a9\'b4\'a6\'c0\'edaccessoryButton\'b0\'b4\'cf\'c2\'b5\'c4\'ca\'c2\'bc\'fe\
+	  - (void)tableView:(UITableView *)tableView\
+		accessoryButtonTappedForRowWithIndexPath:(NSIndexPath *)indexPath\
+\
+     6\'a3\'a9\'bd\'f8\'c8\'eb\'b1\'e0\'bc\'ad\'ba\'cd\'c8\'a1\'cf\'fb\'b1\'e0\'bc\'ad\'c4\'a3\'ca\'bd\
+	  @property(nonatomic,getter=isEditing) BOOL editing\
+\
+     7\'a3\'a9\'b6\'a8\'d6\'c6\'c9\'be\'b3\'fd\'c9\'cf\'c3\'e6\'b5\'c4\'ce\'c4\'d7\'d6\
+	  - (NSString *)tableView:(UITableView *)tableView 		 titleForDeleteConfirmationButtonForRowAtIndexPath:(NSIndexPath *)indexPath\
+\
+	8\'a3\'a9\'c8\'e7\'ba\'ce\'c8\'c3\'d6\'b8\'b6\'a8\'d0\'d0\'bf\'c9\'d2\'d4\'b1\'e0\'bc\'ad\
+	  - (BOOL)tableView:(UITableView *)tableView \
+      canEditRowAtIndexPath:(NSIndexPath *)indexPath\
+\
+     9\'a3\'a9\'d1\'a1\'d6\'d0\'d6\'b8\'b6\'a8\'d0\'d0\
+	  - (void)tableView:(UITableView *)tableView \
+    didSelectRowAtIndexPath:(NSIndexPath *)indexPath;\
+\
+	10\'a3\'a9\'c8\'e7\'ba\'ce\'cc\'f8\'d7\'aa\'b5\'bd\'d6\'b8\'b6\'a8\'c4\'b3\'d2\'bb\'b6\'ce\'c4\'b3\'d2\'bb\'d0\'d0\
+	  - (void)scrollToRowAtIndexPath:(NSIndexPath *)indexPath \
+		        atScrollPosition:(UITableViewScrollPosition)scrollPosition \
+			        animated:(BOOL)animated;\
+\
+	11\'a3\'a9\'c9\'be\'b3\'fd/\'b2\'e5\'c8\'eb\'d2\'bb\'d0\'d0\
+	  - (void)tableView:(UITableView *)tableView \
+	 commitEditingStyle:(UITableViewCellEditingStyle)editingStyle\
+	  forRowAtIndexPath:(NSIndexPath *)indexPath\
+\
+	
+\f2\fs48 \CocoaLigature0 - (UITableViewCellEditingStyle)tableView:(UITableView *)tableView \
+	editingStyleForRowAtIndexPath:(NSIndexPath *)indexPath\
+	\'d2\'bb\'c6\'f0\'d3\'c3
+\f0\fs44 \CocoaLigature1 \
+\
+	//tableView\'b5\'f7\'d3\'c3\
+	- (void)insertRowsAtIndexPaths:(NSArray *)indexPaths \
+		      withRowAnimation:(UITableViewRowAnimation)animation;\
+	- (void)deleteRowsAtIndexPaths:(NSArray *)indexPaths \
+	              withRowAnimation:(UITableViewRowAnimation)animation;\
+\
+	12\'a3\'a9\'c8\'e7\'ba\'ce\'d2\'c6\'b6\'af\'d2\'bb\'d0\'d0	  \
+	  - (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)\
+			sourceIndexPath toIndexPath:				(NSIndexPath *)destinationIndexPath;\
+\
+\
+\'bf\'ce\'ba\'f3\'d7\'f7\'d2\'b5\'a3\'ba 1. \'b4\'b4\'bd\'a8\'b1\'ed\'b8\'f1\'ca\'d3\'cd\'bc\'a3\'ac\'c8\'e7\'cd\'bc1.png\'a3\'bb\'b5\'e3\'bb\'f7\'c8\'ce\'ba\'ce\'d2\'bb\'b8\'f6\'b5\'a5\'d4\'aa\'b8\'f1\'a3\'ac\'bf\'c9\'c7\'d0\'bb\'bb\'b5\'bd\'c1\'ed\'d2\'bb\'b8\'f6\'bd\'e7\'c3\'e6\'bd\'f8\'d0\'d0\'d0\'de\'b8\'c4\'d6\'f7\'b1\'ea\'cc\'e2\'a3\'bb\
+                     2.\'d4\'da\'c1\'ed\'d2\'bb\'b8\'f6\'bd\'e7\'c3\'e6\'a3\'a82.png\'a3\'a9\'d0\'de\'b8\'c4\'ba\'f3\'a3\'ac\'b7\'b5\'bb\'d8\'b5\'bd\'b5\'da\'d2\'bb\'b8\'f6\'bd\'e7\'c3\'e6\'a3\'ac\'d6\'b5\'d2\'d1\'b8\'c4\'b1\'e4\'a3\'bb}

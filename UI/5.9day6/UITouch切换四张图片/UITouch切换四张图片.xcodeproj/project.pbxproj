@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		878B85251CE07DFD000B8CF5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 878B85241CE07DFD000B8CF5 /* main.m */; };
+		878B85281CE07DFD000B8CF5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 878B85271CE07DFD000B8CF5 /* AppDelegate.m */; };
+		878B852B1CE07DFD000B8CF5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 878B852A1CE07DFD000B8CF5 /* ViewController.m */; };
+		878B852E1CE07DFD000B8CF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 878B852C1CE07DFD000B8CF5 /* Main.storyboard */; };
+		878B85301CE07DFD000B8CF5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 878B852F1CE07DFD000B8CF5 /* Images.xcassets */; };
+		878B85331CE07DFD000B8CF5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 878B85311CE07DFD000B8CF5 /* LaunchScreen.xib */; };
+		878B853F1CE07DFD000B8CF5 /* UITouch______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 878B853E1CE07DFD000B8CF5 /* UITouch______Tests.m */; };
+		878B854F1CE07E07000B8CF5 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 878B85491CE07E07000B8CF5 /* 1.jpg */; };
+		878B85501CE07E07000B8CF5 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 878B854A1CE07E07000B8CF5 /* 1.png */; };
+		878B85511CE07E07000B8CF5 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 878B854B1CE07E07000B8CF5 /* 2.jpg */; };
+		878B85521CE07E07000B8CF5 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 878B854C1CE07E07000B8CF5 /* 3.jpg */; };
+		878B85531CE07E07000B8CF5 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 878B854D1CE07E07000B8CF5 /* 4.jpg */; };
+		878B85541CE07E07000B8CF5 /* bj_top_jt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 878B854E1CE07E07000B8CF5 /* bj_top_jt@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		878B85391CE07DFD000B8CF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 878B85171CE07DFD000B8CF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 878B851E1CE07DFD000B8CF5;
+			remoteInfo = "UITouch切换四张图片";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		878B851F1CE07DFD000B8CF5 /* UITouch切换四张图片.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UITouch切换四张图片.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		878B85231CE07DFD000B8CF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		878B85241CE07DFD000B8CF5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		878B85261CE07DFD000B8CF5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		878B85271CE07DFD000B8CF5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		878B85291CE07DFD000B8CF5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		878B852A1CE07DFD000B8CF5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		878B852D1CE07DFD000B8CF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		878B852F1CE07DFD000B8CF5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		878B85321CE07DFD000B8CF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		878B85381CE07DFD000B8CF5 /* UITouch切换四张图片Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITouch切换四张图片Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		878B853D1CE07DFD000B8CF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		878B853E1CE07DFD000B8CF5 /* UITouch______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITouch______Tests.m"; sourceTree = "<group>"; };
+		878B85491CE07E07000B8CF5 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		878B854A1CE07E07000B8CF5 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		878B854B1CE07E07000B8CF5 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		878B854C1CE07E07000B8CF5 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		878B854D1CE07E07000B8CF5 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		878B854E1CE07E07000B8CF5 /* bj_top_jt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bj_top_jt@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		878B851C1CE07DFD000B8CF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		878B85351CE07DFD000B8CF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		878B85161CE07DFD000B8CF5 = {
+			isa = PBXGroup;
+			children = (
+				878B85211CE07DFD000B8CF5 /* UITouch切换四张图片 */,
+				878B853B1CE07DFD000B8CF5 /* UITouch切换四张图片Tests */,
+				878B85201CE07DFD000B8CF5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		878B85201CE07DFD000B8CF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				878B851F1CE07DFD000B8CF5 /* UITouch切换四张图片.app */,
+				878B85381CE07DFD000B8CF5 /* UITouch切换四张图片Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		878B85211CE07DFD000B8CF5 /* UITouch切换四张图片 */ = {
+			isa = PBXGroup;
+			children = (
+				878B85481CE07E07000B8CF5 /* 图片 */,
+				878B85261CE07DFD000B8CF5 /* AppDelegate.h */,
+				878B85271CE07DFD000B8CF5 /* AppDelegate.m */,
+				878B85291CE07DFD000B8CF5 /* ViewController.h */,
+				878B852A1CE07DFD000B8CF5 /* ViewController.m */,
+				878B852C1CE07DFD000B8CF5 /* Main.storyboard */,
+				878B852F1CE07DFD000B8CF5 /* Images.xcassets */,
+				878B85311CE07DFD000B8CF5 /* LaunchScreen.xib */,
+				878B85221CE07DFD000B8CF5 /* Supporting Files */,
+			);
+			path = "UITouch切换四张图片";
+			sourceTree = "<group>";
+		};
+		878B85221CE07DFD000B8CF5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				878B85231CE07DFD000B8CF5 /* Info.plist */,
+				878B85241CE07DFD000B8CF5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		878B853B1CE07DFD000B8CF5 /* UITouch切换四张图片Tests */ = {
+			isa = PBXGroup;
+			children = (
+				878B853E1CE07DFD000B8CF5 /* UITouch______Tests.m */,
+				878B853C1CE07DFD000B8CF5 /* Supporting Files */,
+			);
+			path = "UITouch切换四张图片Tests";
+			sourceTree = "<group>";
+		};
+		878B853C1CE07DFD000B8CF5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				878B853D1CE07DFD000B8CF5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		878B85481CE07E07000B8CF5 /* 图片 */ = {
+			isa = PBXGroup;
+			children = (
+				878B85491CE07E07000B8CF5 /* 1.jpg */,
+				878B854A1CE07E07000B8CF5 /* 1.png */,
+				878B854B1CE07E07000B8CF5 /* 2.jpg */,
+				878B854C1CE07E07000B8CF5 /* 3.jpg */,
+				878B854D1CE07E07000B8CF5 /* 4.jpg */,
+				878B854E1CE07E07000B8CF5 /* bj_top_jt@2x.png */,
+			);
+			path = "图片";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		878B851E1CE07DFD000B8CF5 /* UITouch切换四张图片 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 878B85421CE07DFD000B8CF5 /* Build configuration list for PBXNativeTarget "UITouch切换四张图片" */;
+			buildPhases = (
+				878B851B1CE07DFD000B8CF5 /* Sources */,
+				878B851C1CE07DFD000B8CF5 /* Frameworks */,
+				878B851D1CE07DFD000B8CF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UITouch切换四张图片";
+			productName = "UITouch切换四张图片";
+			productReference = 878B851F1CE07DFD000B8CF5 /* UITouch切换四张图片.app */;
+			productType = "com.apple.product-type.application";
+		};
+		878B85371CE07DFD000B8CF5 /* UITouch切换四张图片Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 878B85451CE07DFD000B8CF5 /* Build configuration list for PBXNativeTarget "UITouch切换四张图片Tests" */;
+			buildPhases = (
+				878B85341CE07DFD000B8CF5 /* Sources */,
+				878B85351CE07DFD000B8CF5 /* Frameworks */,
+				878B85361CE07DFD000B8CF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				878B853A1CE07DFD000B8CF5 /* PBXTargetDependency */,
+			);
+			name = "UITouch切换四张图片Tests";
+			productName = "UITouch切换四张图片Tests";
+			productReference = 878B85381CE07DFD000B8CF5 /* UITouch切换四张图片Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		878B85171CE07DFD000B8CF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "刘桂林";
+				TargetAttributes = {
+					878B851E1CE07DFD000B8CF5 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					878B85371CE07DFD000B8CF5 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 878B851E1CE07DFD000B8CF5;
+					};
+				};
+			};
+			buildConfigurationList = 878B851A1CE07DFD000B8CF5 /* Build configuration list for PBXProject "UITouch切换四张图片" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 878B85161CE07DFD000B8CF5;
+			productRefGroup = 878B85201CE07DFD000B8CF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				878B851E1CE07DFD000B8CF5 /* UITouch切换四张图片 */,
+				878B85371CE07DFD000B8CF5 /* UITouch切换四张图片Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		878B851D1CE07DFD000B8CF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				878B85531CE07E07000B8CF5 /* 4.jpg in Resources */,
+				878B852E1CE07DFD000B8CF5 /* Main.storyboard in Resources */,
+				878B854F1CE07E07000B8CF5 /* 1.jpg in Resources */,
+				878B85331CE07DFD000B8CF5 /* LaunchScreen.xib in Resources */,
+				878B85541CE07E07000B8CF5 /* bj_top_jt@2x.png in Resources */,
+				878B85301CE07DFD000B8CF5 /* Images.xcassets in Resources */,
+				878B85511CE07E07000B8CF5 /* 2.jpg in Resources */,
+				878B85521CE07E07000B8CF5 /* 3.jpg in Resources */,
+				878B85501CE07E07000B8CF5 /* 1.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		878B85361CE07DFD000B8CF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		878B851B1CE07DFD000B8CF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				878B852B1CE07DFD000B8CF5 /* ViewController.m in Sources */,
+				878B85281CE07DFD000B8CF5 /* AppDelegate.m in Sources */,
+				878B85251CE07DFD000B8CF5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		878B85341CE07DFD000B8CF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				878B853F1CE07DFD000B8CF5 /* UITouch______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		878B853A1CE07DFD000B8CF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 878B851E1CE07DFD000B8CF5 /* UITouch切换四张图片 */;
+			targetProxy = 878B85391CE07DFD000B8CF5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		878B852C1CE07DFD000B8CF5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				878B852D1CE07DFD000B8CF5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		878B85311CE07DFD000B8CF5 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				878B85321CE07DFD000B8CF5 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		878B85401CE07DFD000B8CF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		878B85411CE07DFD000B8CF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		878B85431CE07DFD000B8CF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UITouch切换四张图片/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		878B85441CE07DFD000B8CF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UITouch切换四张图片/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		878B85461CE07DFD000B8CF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "UITouch切换四张图片Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UITouch切换四张图片.app/UITouch切换四张图片";
+			};
+			name = Debug;
+		};
+		878B85471CE07DFD000B8CF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "UITouch切换四张图片Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UITouch切换四张图片.app/UITouch切换四张图片";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		878B851A1CE07DFD000B8CF5 /* Build configuration list for PBXProject "UITouch切换四张图片" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				878B85401CE07DFD000B8CF5 /* Debug */,
+				878B85411CE07DFD000B8CF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		878B85421CE07DFD000B8CF5 /* Build configuration list for PBXNativeTarget "UITouch切换四张图片" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				878B85431CE07DFD000B8CF5 /* Debug */,
+				878B85441CE07DFD000B8CF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		878B85451CE07DFD000B8CF5 /* Build configuration list for PBXNativeTarget "UITouch切换四张图片Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				878B85461CE07DFD000B8CF5 /* Debug */,
+				878B85471CE07DFD000B8CF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 878B85171CE07DFD000B8CF5 /* Project object */;
+}

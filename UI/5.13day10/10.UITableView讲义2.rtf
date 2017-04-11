@@ -1,0 +1,112 @@
+{\rtf1\ansi\ansicpg936\cocoartf1348\cocoasubrtf170
+{\fonttbl\f0\fnil\fcharset134 STHeitiSC-Light;\f1\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww24500\viewh13780\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+
+\f0\fs52 \cf0 \'d6\'aa\'ca\'b6\'b5\'e3:\
+	1.UITableView\'b1\'ed\'cd\'b7\'b1\'ed\'ce\'b2\'b6\'a8\'d6\'c6\
+	2.UITableView\'b6\'ce\'cd\'b7\'b6\'ce\'ce\'b2\'b6\'a8\'d6\'c6\
+	3.UITableView\'cb\'d1\'cb\'f7\'b9\'a6\'c4\'dc\
+	4.UITableView\'b6\'a8\'d6\'c6Section\
+	5.QQ\'ba\'c3\'d3\'d1\'b7\'d6\'d7\'e9\'b5\'c4\'d5\'b9\'bf\'aa\'ba\'cd\'ca\'d5\'c6\'f0\
+\
+=======================\
+UITableView\'b1\'ed\'cd\'b7\'b1\'ed\'ce\'b2\'b6\'a8\'d6\'c6\
+    1.\'b1\'ed\'cd\'b7\CocoaLigature0 \
+		
+\fs48 @property (nonatomic, retain) UIView *tableHeaderView; 
+\f1\fs34 \
+	
+\f0\fs52 \CocoaLigature1 1.\'b1\'ed\'ce\'b2\
+		
+\fs48 \CocoaLigature0 @property (nonatomic, retain) UIView *tableFooterView; \
+
+\fs52 \CocoaLigature1 \
+=======================\
+UITableView\'b6\'ce\'cd\'b7\'b6\'ce\'ce\'b2\'b6\'a8\'d6\'c6\
+    1.\'b6\'ce\'cd\'b7\'b6\'a8\'d6\'c6\CocoaLigature0 \
+		
+\fs48 - (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section; 
+\f1\fs34 \
+	
+\f0\fs48 2.\'b6\'ce\'cd\'b7\'b8\'df\'b6\'c8
+\f1\fs34 \
+		
+\f0\fs48 - (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section;
+\f1\fs34 \
+	\
+	
+\f0\fs52 \CocoaLigature1 3.\'b6\'ce\'ce\'b2\'b6\'a8\'d6\'c6\
+		
+\fs48 \CocoaLigature0 - (UIView *)tableView:(UITableView *)tableView viewForFooterInSection:(NSInteger)section; 
+\f1\fs34 \
+	
+\f0\fs48 4.\'b6\'ce\'ce\'b2\'b8\'df\'b6\'c8
+\fs52 \CocoaLigature1 \
+	    
+\fs48 \CocoaLigature0 - (CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section;\
+
+\f1\fs34 \
+	
+\f0\fs48 5.tableview\'bf\'c9\'d2\'d4\'cf\'ec\'d3\'a6\'d3\'a6ScrollView\'b4\'fa\'c0\'ed\'b7\'bd\'b7\'a8
+\f1\fs34 \
+	    
+\f0\fs48 @property (nonatomic, assign)   id <UITableViewDelegate>   delegate;
+\fs52 \CocoaLigature1 \
+=======================\
+UITableView\'cb\'d1\'cb\'f7\'b9\'a6\'c4\'dc\
+    1.\CocoaLigature0 UISearchController\
+		\'cb\'d1\'cb\'f7\'bf\'d8\'d6\'c6\'c6\'f7\
+	\
+	2.\'b4\'b4\'bd\'a8\'b7\'bd\'ca\'bd\
+	- (instancetype)initWithSearchResultsController:(UIViewController *)searchResultsController;\
+\
+	3.@property (nonatomic, assign) BOOL dimsBackgroundDuringPresentation;\CocoaLigature1 \
+	\'d7\'f7\'d3\'c3\'a3\'ba\'ca\'c7\'b7\'f1\'d4\'da\'cb\'d1\'cb\'f7\'b5\'c4\'ca\'b1\'ba\'f2\'ca\'b9\'b5\'d7\'c9\'ab\'b1\'e4\'b0\'b5\
+	\
+	4.\'bf\'c9\'d7\'f1\'d1\'ad\'b5\'c4\'d0\'ad\'d2\'e9\'b4\'fa\'c0\'ed\
+		1\'a3\'a9\CocoaLigature0 UISearchResultsUpdating\
+		2\'a3\'a9UISearchControllerDelegate\CocoaLigature1 \
+\CocoaLigature0 \
+	5.UISearchBar\
+			\'cb\'d1\'cb\'f7\'bf\'f2\
+		\
+		1\'a3\'a9sizeToFit\
+		\'d7\'f7\'d3\'c3\'a3\'baUIView\'b8\'f9\'be\'dd\'d7\'d4\'bc\'ba\'b5\'c4\'c4\'da\'c8\'dd\'c0\'b4\'b1\'e4\'bb\'afFrame\'b5\'c4\'b4\'f3\'d0\'a1\
+\
+		2\'a3\'a9placeholder\
+		\'d7\'f7\'d3\'c3\'a3\'ba\'ce\'c4\'d7\'d6\'cc\'e1\'ca\'be\
+\
+		3\'a3\'a9barTintColor\
+		\'d7\'f7\'d3\'c3\'a3\'ba\'ca\'e4\'c8\'eb\'bf\'f2\'b5\'c4\'b1\'b3\'be\'b0\'c9\'ab\CocoaLigature1 \
+\
+	6.\'b4\'fa\'c0\'ed\'b7\'bd\'b7\'a8\
+		1\'a3\'a9\CocoaLigature0 - (void)updateSearchResultsForSearchController:(UISearchController *)searchController;\
+		\'b5\'f7\'d3\'c3\'ca\'b1\'bb\'fa\'a3\'ba\'b5\'b1\'cb\'d1\'cb\'f7\'bf\'f2\'b5\'c4\'ca\'e4\'c8\'eb\'c4\'da\'c8\'dd\'b8\'c4\'b1\'e4\'b5\'c4\'ca\'b1\'ba\'f2\
+\
+		2\'a3\'a9- (void)didDismissSearchController:(UISearchController *)searchController\
+		\'b5\'f7\'d3\'c3\'ca\'b1\'bb\'fa\'a3\'ba\'b5\'b1\'cd\'cb\'b3\'f6\'cb\'d1\'cb\'f7\'c4\'a3\'ca\'bd\'b5\'c4\'ca\'b1\'ba\'f2\
+\CocoaLigature1 =======================\
+MVC \'c9\'e8\'bc\'c6\'c4\'a3\'ca\'bd\
+		1)Model  \'ca\'fd\'be\'dd\'c4\'a3\'d0\'cd\
+		2)View     \'ca\'d3\'cd\'bc\
+		3)ViewController\
+		MVC\'ca\'c7\'d2\'bb\'d6\'d6\'ca\'d3\'cd\'bc\'c4\'a3\'d0\'cd\'cf\'e0\'b7\'d6\'c0\'eb\'b5\'c4\'c9\'e8\'bc\'c6\'c4\'a3\'ca\'bd.\'cd\'a8\'b9\'fd\'cb\'fc\'bf\'c9\'d2\'d4\'b4\'ef\'b5\'bd\'b8\'df\'c4\'da\'be\'db\'b5\'cd\'f1\'ee\'ba\'cf.\
+		\'bd\'ab\'c4\'a3\'d0\'cd\'ba\'cd\'ca\'d3\'cd\'bc\'cf\'e0\'b7\'d6\'c0\'eb,\'c4\'c7\'c3\'b4\'b6\'d4\'c6\'e4\'d6\'d0\'d2\'bb\'b8\'f6\'bd\'f8\'d0\'d0\'d0\'de\'b8\'c4,\'b2\'bb\'bb\'e1\'d3\'b0\'cf\'ec\'c1\'ed\'d2\'bb\'b8\'f6.\
+\
+=======================\
+\'d7\'d4\'b6\'a8\'d2\'e5tableViewcell\
+		\'bc\'cc\'b3\'d0UITableViewCell,\'d4\'da\'d5\'e2\'b8\'f6\'c0\'e0\'c9\'cf\'c3\'e6\'cc\'ed\'bc\'d3\'ce\'d2\'c3\'c7\'d0\'e8\'d2\'aa\'b5\'c4\'bf\'d8\'bc\'fe\
+\
+=======================\
+QQ\'ba\'c3\'d3\'d1\'b7\'d6\'d7\'e9\'b5\'c4\'d5\'b9\'bf\'aa\'ba\'cd\'ca\'d5\'c6\'f0\
+\
+		\
+		//\'ca\'fd\'be\'dd\'b7\'e2\'d7\'b0\'a3\'ba\'d7\'e9\'b5\'c4\'b6\'d4\'cf\'f3\'d3\'d0\'d2\'bb\'b8\'f6\'ca\'fd\'d7\'e9:[\'c8\'cb\'b5\'c4\'b6\'d4\'cf\'f3,\'c8\'cb\'b5\'c4\'b6\'d4\'cf\'f3,\'c8\'cb\'b5\'c4\'b6\'d4\'cf\'f3];\
+\
+\
+\
+		\'bf\'ce\'ba\'f3\'d7\'f7\'d2\'b5\'a3\'ba\'b0\'d1\'cb\'d1\'cb\'f7\'ba\'cd\'b7\'d6\'d7\'e9\'ba\'cf\'b2\'a2\'b5\'bd\'d2\'bb\'b8\'f6\'b9\'a4\'b3\'cc\
+\
+}

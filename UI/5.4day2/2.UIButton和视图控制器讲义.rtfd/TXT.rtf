@@ -1,0 +1,200 @@
+{\rtf1\ansi\ansicpg936\cocoartf1348\cocoasubrtf170
+{\fonttbl\f0\fnil\fcharset134 STHeitiSC-Light;\f1\fnil\fcharset0 Menlo-Regular;\f2\fnil\fcharset134 STXihei;
+\f3\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;\red92\green38\blue153;\red77\green0\blue158;\red46\green13\blue110;
+\red0\green11\blue255;\red38\green38\blue38;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww23820\viewh13060\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+
+\f0\fs44 \cf0 \'d6\'aa\'ca\'b6\'b5\'e3:\
+	1.UIButton\'ca\'b9\'d3\'c3\'ba\'cd\'ca\'c2\'bc\'fe\'bb\'fa\'d6\'c6\
+	2.UIImage\
+	3.\'d7\'d4\'b6\'a8\'d2\'e5UIButton\
+	4.NSTimer\
+	5.\'ca\'d3\'cd\'bc\'bf\'d8\'d6\'c6\'c6\'f7\'b3\'f5\'c8\'cf\'ca\'b6\
+==================\
+UIButton\
+\
+   1.\'b4\'b4\'bd\'a8\'b7\'bd\'ca\'bd\
+     \'b0\'b4\'c5\'a5\'c0\'e0\'d0\'cd\
+	UIButtonTypeCustom			         \'d3\'c3\'bb\'a7\'d7\'d4\'b6\'a8\'d2\'e5\'b0\'b4\'c5\'a5\
+	UIButtonTypeSystem        \'cf\'b5\'cd\'b3\'b0\'b4\'c5\'a5\
+	UIButtonTypeDetailDisclosure    \'b8\'fc\'b6\'e0\'d0\'c5\'cf\'a2\'b0\'b4\'c5\'a5   i\
+	UIButtonTypeInfoLight		        \'b8\'df\'c1\'c1\'d0\'c5\'cf\'a2\'b0\'b4\'c5\'a5   i\
+	UIButtonTypeInfoDark		        \'b0\'b5\'c9\'ab\'d0\'c5\'cf\'a2\'b0\'b4\'c5\'a5   i\
+	UIButtonTypeContactAdd	        \'bc\'d3\'ba\'c5\'b0\'b4\'c5\'a5           +\
+\
+   2.\'c9\'e8\'d6\'c3\'b0\'b4\'c5\'a5\'b1\'df\'bf\'f2\'d1\'d5\'c9\'ab\'ba\'cd\'b1\'df\'bf\'f2\'b4\'f3\'d0\'a1\'ba\'cd\'b5\'b9\'bd\'c7\
+	
+\f1\fs36 \CocoaLigature0 button.\cf2 layer\cf0 .\cf2 borderColor\cf0  = [\cf3 UIColor\cf0  \cf4 redColor\cf0 ].\cf2 CGColor\cf0 ;\
+	button.\cf2 layer\cf0 .\cf2 borderWidth\cf0  = \cf5 2.0f\cf0 ;\
+	button.\cf2 layer\cf0 .\cf2 cornerRadius\cf0  = \cf5 5.0f\cf0 ;
+\f0\fs44 \CocoaLigature1 \
+\
+   3.\'c9\'e8\'d6\'c3\'b0\'b4\'c5\'a5\'b5\'c4\'b1\'ea\'cc\'e2\
+		-(void\'a3\'a9setTitle:(NSString *)title forState:(UIControlState\'a3\'a9state;\
+\
+	UIControlState:	\
+		UIControlStateNormal		          \'b0\'b4\'c5\'a5\'d2\'bb\'b0\'e3\'d7\'b4\'cc\'ac\
+		UIControlStateHighlighted       \'b0\'b4\'c5\'a5\'b1\'bb\'b0\'b4\'cf\'c2(\'b8\'df\'c1\'c1\'a3\'a9\'d7\'b4\'cc\'ac\
+\
+		UIConstrolStateDisabled	          \'b0\'b4\'c5\'a5\'b1\'bb\'bd\'fb\'d3\'c3\'d7\'b4\'cc\'ac\
+		UIConstrolStateSelected	          \'b0\'b4\'c5\'a5\'b1\'bb\'d1\'a1\'d6\'d0\
+\
+   	4.\'c9\'e8\'d6\'c3\'b0\'b4\'c5\'a5\'b5\'c4\'b1\'ea\'cc\'e2\'d1\'d5\'c9\'ab\
+		1\'a3\'a9\'c9\'e8\'d6\'c3\'b0\'b4\'c5\'a5\'d1\'d5\'c9\'ab\
+			-(void\'a3\'a9setTitleColor:(UIColor *\'a3\'a9color forState:(UIControlState\'a3\'a9state;\
+	\
+\
+   	5.\'ca\'c2\'bc\'fe\'b4\'a6\'c0\'ed\
+		1\'a3\'a9iOS\'ca\'c2\'bc\'fe\'b7\'d6\'c0\'e0\
+	  	\'b4\'a5\'bf\'d8\'ca\'c2\'bc\'fe\'a3\'a8\'b5\'a5\'b5\'e3\'a1\'a2\'b6\'e0\'b5\'e3\'b4\'a5\'bf\'d8\'d2\'d4\'bc\'b0\'b8\'f7\'d6\'d6\'ca\'d6\'ca\'c6\'b2\'d9\'d7\'f7\'a3\'a9\
+	  	\'b4\'ab\'b8\'d0\'c6\'f7\'ca\'c2\'bc\'fe\'a3\'a8\'d6\'d8\'c1\'a6\'a1\'a2\'bc\'d3\'cb\'d9\'b6\'c8\'b4\'ab\'b8\'d0\'c6\'f7\'b5\'c8\'a3\'a9\
+	  	\'d4\'b6\'b3\'cc\'bf\'d8\'d6\'c6\'ca\'c2\'bc\'fe\'a3\'a8\'d4\'b6\'b3\'cc\'d2\'a3\'bf\'d8iOS\'c9\'e8\'b1\'b8\'b6\'e0\'c3\'bd\'cc\'e5\'b2\'a5\'b7\'c5\'b5\'c8\'a3\'a9\
+\
+		2\'a3\'a9\'cc\'ed\'bc\'d3\'ca\'c2\'bc\'fe\
+			-(void\'a3\'a9addTarget:(id\'a3\'a9target \
+                  				action:(SEL\'a3\'a9action \
+        			forControlEvents:(UIConstrolEvents\'a3\'a9controlEvents\
+\
+		3\'a3\'a9\'c9\'be\'b3\'fd\'ca\'c2\'bc\'fe\
+			-(void\'a3\'a9removeTarget:(id\'a3\'a9target \
+                     			action:(SEL\'a3\'a9action \
+    	  			 forControlEvents:(UIConstrolEvents\'a3\'a9controlEvents\
+	\
+   	6.\'b3\'a3\'d3\'c3\'ca\'c2\'bc\'fe:UIConstrolEvents\
+		UIControlEventTouchDown              \'b0\'b4\'c5\'a5\'b0\'b4\'cf\'c2\
+		UIControlEventTouchUpInside         \'b0\'b4\'c5\'a5\'b0\'b4\'cf\'c2\'b5\'af\'c6\'f0\
+		UIControlEventTouchUpOutside     \'b0\'b4\'c5\'a5\'b0\'b4\'cf\'c2,\'b0\'b4\'c5\'a5\'cd\'e2\'b5\'af\'c6\'f0\
+\
+	7.UIView\'b1\'ea\'c7\'a9:setTag\
+\
+	\'c1\'b7\'cf\'b0:\'b4\'b4\'bd\'a8\'d2\'bb\'b8\'f6\'b0\'b4\'c5\'a5,\'b0\'b4\'c5\'a5\'c6\'d5\'cd\'a8\'d7\'b4\'cc\'ac\'ce\'aa\'a1\'b0\'b2\'a5\'b7\'c5\'a1\'b1\'a3\'ac\'d7\'d6\'cc\'e5\'d1\'d5\'c9\'ab\'ce\'aa\'ba\'ec\'c9\'ab\'a3\'ac\'d1\'a1\'d4\'f1\'d7\'b4\'cc\'ac\'ce\'aa\'a1\'b0\'d4\'dd\'cd\'a3\'a1\'b1\'a3\'ac\'d7\'d6\'cc\'e5\'d1\'d5\'c9\'ab\'ce\'aa\'bb\'c6\'c9\'ab\'a1\'a3\'c3\'bf\'b5\'e3\'bb\'f7\'d2\'bb\'b4\'ce\'b0\'b4\'c5\'a5\'b2\'a5\'b7\'c5\'d3\'eb\'d4\'dd\'cd\'a3\'cf\'e0\'bb\'a5\'bd\'bb\'bb\'bb\
+\
+	\
+==========================\
+UIImage\
+\
+		+(UIImage *\'a3\'a9imageNamed:(NSString *\'a3\'a9name;\
+		\'ca\'b9\'d3\'c3\'b8\'c3\'b7\'bd\'b7\'a8\'b5\'c4\'c7\'b0\'cc\'e1\'ca\'c7\'cd\'bc\'c6\'ac\'b1\'d8\'d0\'eb\'d2\'d1\'be\'ad\'b4\'e6\'d4\'da\'d3\'da\'cf\'ee\'c4\'bf\'d6\'d0,\'c8\'e7\'b9\'fb\'cd\'bc\'c6\'ac\'d0\'e8\'d2\'aa\'b6\'e0\'b4\'ce\'cf\'d4\'ca\'be\'ca\'b1\'ca\'b9\'d3\'c3\'a3\'a8\'bb\'e1\'cf\'fb\'ba\'c4\'cf\'b5\'cd\'b3\'bb\'ba\'b4\'e6		\'bf\'d5\'bc\'e4\'a3\'a9\
+\
+		+(UIImage *\'a3\'a9
+\f2 \CocoaLigature0 UIImage imageWithContentsOfFile:(NSString *)
+\f0 \CocoaLigature1 ;\
+		\'ca\'b9\'d3\'c3\'b4\'cb\'b7\'bd\'b7\'a8\'bc\'d3\'d4\'d8\'ce\'c4\'bc\'fe\'ca\'b1,\'cf\'b5\'cd\'b3\'b2\'bb\'b0\'d1\'cd\'bc\'cf\'f1\'d2\'d4\'ca\'fd\'be\'dd\'b5\'c4\'b7\'bd\'ca\'bd\'bc\'d3\'d4\'d8\'b5\'bd\'b3\'cc\'d0\'f2\'d6\'d0,\
+		\'c8\'e7\'b2\'bb\'d0\'e8\'d2\'aa\'b8\'b4\'d3\'c3\'b8\'c3\'cd\'bc\'cf\'f1\'bb\'f2\'d5\'df\'ca\'c7\'d2\'bb\'b8\'f6\'ba\'dc\'b4\'f3\'b5\'c4\'cd\'bc\'cf\'f1\'ca\'b1\'cd\'c6\'bc\'f6\'ca\'b9\'d3\'c3\'b4\'cb\'b7\'bd\'b7\'a8\
+\
+		\'bb\'f1\'c8\'a1\'cf\'ee\'c4\'bf\'d6\'d0\'b5\'c4\'d7\'ca\'d4\'b4\'c2\'b7\'be\'b6\
+		NSString * path = [[NSBundle mainBundle] pathForResource:@"Logo" ofType:@"png"];\
+\
+==========================\
+\'d7\'d4\'b6\'a8\'d2\'e5UIButton\
+\
+   1.\'cd\'bc\'c6\'ac\'b0\'b4\'c5\'a5\
+		1\'a3\'a9\'c9\'e8\'d6\'c3\'b0\'b4\'c5\'a5\'b1\'b3\'be\'b0\'cd\'bc\'c6\'ac\
+			-(void)setBackgroundImage:(UIImage *\'a3\'a9image forState:(UIControlState\'a3\'a9state;\
+		2\'a3\'a9\'c9\'e8\'d6\'c3\'b0\'b4\'c5\'a5\'cd\'bc\'c6\'ac\
+			-(void)setImage:(UIImage *\'a3\'a9image forState:(UIControlState\'a3\'a9state;\
+		\
+   	2.\'ca\'b5\'cf\'d6\'b9\'fd\'b3\'cc\
+		1\'a3\'a9buttonType\'c0\'e0\'d0\'cd\'ce\'aa UIButtonTypeCustom\
+		2\'a3\'a9\'c9\'e8\'d6\'c3\'cd\'bc\'c6\'ac:setImage:forState:image:\'cd\'bc\'c6\'ac\'b5\'c4\'ce\'c4\'bc\'fe\'c3\'fb\
+\
+	\'ca\'be\'c0\'fd:\'d2\'bb\'b8\'f6\'b0\'b4\'c5\'a5\'b5\'c4\'d1\'a1\'d6\'d0\'d3\'eb\'b2\'bb\'d1\'a1\'d6\'d0\'c7\'d0\'bb\'bb\
+\
+\pard\tx866\pardeftab866\pardirnatural
+
+\fs48 \cf6 \expnd0\expndtw0\kerning0
+    \'c1\'b7\'cf\'b0\cf0 \kerning1\expnd0\expndtw0 \CocoaLigature0 :
+\fs44 \CocoaLigature1 \'b6\'e0\'b8\'f6\'b0\'b4\'c5\'a5\'d6\'bb\'c4\'dc\'ce\'a8\'d2\'bb\'d1\'a1\'d6\'d0\'d0\'a7\'b9\'fb.  \'cc\'e1\'ca\'be:\'bf\'c9\'d2\'d4\'b8\'f8\'b0\'b4\'c5\'a5\'b4\'f2tag,\'c0\'b4\'c8\'a1\'b5\'bd\'c3\'bf\'d2\'bb\'b8\'f6\'b0\'b4\'c5\'a5.
+\fs36 \CocoaLigature0 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab866\pardirnatural
+
+\f3\fs24 \cf0 \CocoaLigature1       {{\NeXTGraphic Pasted Graphic.tiff \width6360 \height1340
+}¬}\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+
+\f0\fs44 \cf0 ==========================\
+\pard\tx566\tx1133\pardeftab720\sl520
+
+\fs48 \cf0 \expnd0\expndtw0\kerning0
+\'b6\'a8\'ca\'b1\'c6\'f7
+\f1 \kerning1\expnd0\expndtw0 \CocoaLigature0 NSTimer
+\f3\fs24 \CocoaLigature1 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab866\pardirnatural
+
+\f0\fs44 \cf0 \
+	1.\'c6\'f4\'b6\'af\'b6\'a8\'ca\'b1\'c6\'f7\
+	+ (NSTimer *)scheduledTimerWithTimeInterval:(NSTimeInterval)ti target:(id)aTarget selector:(SEL)aSelector userInfo:(id)userInfo repeats:(BOOL)yesOrNo;
+\f1 \CocoaLigature0 \
+\
+	2.
+\f0 \'c5\'d0\'b6\'cf\'b6\'a8\'ca\'b1\'c6\'f7\'ca\'c7\'b7\'f1\'d3\'d0\'d0\'a7\
+	\CocoaLigature1 @property (readonly, getter=isValid) BOOL valid;
+\f1 \CocoaLigature0 \
+\
+	3.
+\f0 \'c8\'c3\'b6\'a8\'ca\'b1\'c6\'f7\'ca\'a7\'d0\'a7
+\f1 \
+	
+\f0 \CocoaLigature1 - (void)invalidate;\
+\
+	\'ca\'be\'c0\'fd:\'b5\'b9\'bc\'c6\'ca\'b1Demo\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+\cf0 \
+	\'c1\'b7\'cf\'b0\'a3\'ba\'c4\'a3\'c4\'e2\'b6\'cc\'d0\'c5\'d1\'e9\'d6\'a4\'c2\'eb\'b7\'a2\'cb\'cd\'b0\'b4\'c5\'a5\
+    \
+============================\
+\'ca\'d3\'cd\'bc\'bf\'d8\'d6\'c6\'c6\'f7\'a3\'baUIViewController \'b9\'dc\'c0\'ed\'ca\'d3\'cd\'bc\'ba\'cd\'ca\'fd\'be\'dd\
+\
+	\'c9\'fa\'c3\'fc\'d6\'dc\'c6\'da\'a3\'ba1.alloc \'b3\'f5\'ca\'bc\'bb\'af 2.\'b9\'b9\'d4\'ec\'b7\'bd\'b7\'a8init 3.
+\f1\fs36 \CocoaLigature0 loadView
+\f0\fs44 \CocoaLigature1  \'d5\'fd\'d4\'da\'bc\'d3\'d4\'d8\'d6\'d0 4.
+\f1\fs36 \CocoaLigature0 viewDidLoad
+\f0\fs44 \CocoaLigature1 \'ca\'d3\'cd\'bc\'d2\'d1\'be\'ad\'bc\'d3\'d4\'d8\'cd\'ea\'b3\'c9 5.
+\f1\fs36 \CocoaLigature0 viewWillAppear
+\f0\fs44 \CocoaLigature1 \'ca\'d3\'cd\'bc\'bd\'ab\'d2\'aa\'b3\'f6\'cf\'d6  6.
+\f1\fs36 \CocoaLigature0 viewDidAppear
+\f0 \'ca\'d3\'cd\'bc\'d2\'d1\'be\'ad\'b3\'f6\'cf\'d6 
+\f1 7.viewWillDisappear
+\f0 \'ca\'d3\'cd\'bc\'bc\'b4\'bd\'ab\'cf\'fb\'ca\'a7  8.
+\f1 viewDidDisappear
+\f0 \'ca\'d3\'cd\'bc\'d2\'d1\'be\'ad\'cf\'fb\'ca\'a7 
+\f1 9.viewDidUnload
+\f0 \'c4\'da\'b4\'e6\'b2\'bb\'d7\'e3\'ca\'b1\'b5\'f7\'d3\'c3
+\f1 	 10.delloc 
+\f0 \'ca\'cd\'b7\'c5\'c4\'da\'b4\'e6
+\fs44 \CocoaLigature1 \
+	\
+\
+\'bf\'ce\'ba\'f3\'d7\'f7\'d2\'b5:\'bd\'e1\'ba\'cfUIButton,UILabel\'c8\'c3\'b9\'fa\'bc\'ca\'cf\'f3\'c6\'e5\'b6\'af\'c6\'f0\'c0\'b4\
+\'b9\'d8\'bc\'fc\'b4\'fa\'c2\'eb\'a3\'ba\
+	
+\f1\fs36 \CocoaLigature0 - (void)click:(UIButton *)button\
+\pard\tx866\pardeftab866\pardirnatural
+\cf0 	\{\
+    	if (button.currentTitle.length>0)\
+    	\{\
+        	_lastBtn = button;\
+    	\}\
+    	//
+\f0 \'b5\'e3\'bb\'f7\'ce\'de\'d7\'d6\'b5\'c4
+\f1 ,
+\f0 \'bd\'bb\'bb\'bb
+\f1 _lastBtn
+\f0 \'ba\'cd\'ce\'de\'d7\'d6
+\f1 btn
+\f0 \'b5\'c4
+\f1 frame\
+    	if (_lastBtn != nil && button.currentTitle.length ==0)\
+    	\{\
+        	CGRect frame = button.frame;\
+        	button.frame = _lastBtn.frame;\
+        	_lastBtn.frame = frame;\
+    	\}\
+	\}
+\f0\fs44 \CocoaLigature1 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+\cf0 \
+            }

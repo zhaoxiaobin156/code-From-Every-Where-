@@ -1,0 +1,144 @@
+{\rtf1\ansi\ansicpg936\cocoartf1348\cocoasubrtf170
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset134 STHeitiSC-Light;}
+{\colortbl;\red255\green255\blue255;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww20280\viewh12420\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+
+\f0\fs24 \cf0  
+\f1\fs48 \'d6\'aa\'ca\'b6\'b5\'e3:\
+	1.\'bd\'e2\'be\'f6\'bc\'fc\'c5\'cc\'d5\'da\'b5\'b2\'ca\'e4\'c8\'eb\'bf\'f2\'ce\'ca\'cc\'e2\
+	2.\'ca\'b9\'d3\'c3NSUserDefaults\'b1\'a3\'b4\'e6\'ca\'fd\'be\'dd\
+	2.UITabBarController\'ca\'b9\'d3\'c3\
+	3.UITabBarItem\'ca\'b9\'d3\'c3\
+	4.\'bc\'c7\'d7\'a1UITabBarController\'cb\'b3\'d0\'f2\
+	5.\'d7\'d4\'b6\'a8\'d2\'e5TabBarController\
+=======================\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+
+\fs40 \cf0 \'cd\'a8\'d6\'aa\'d6\'d0\'d0\'c4\
+	1.\'ca\'b2\'c3\'b4\'ca\'c7\'cd\'a8\'d6\'aa\'d6\'d0\'d0\'c4\
+	\'cd\'a8\'d6\'aa\'ca\'c7\'d2\'bb\'d6\'d6\'b7\'a2\'cb\'cd\'b8\'f8\'d2\'bb\'b8\'f6\'bb\'f2\'d5\'df\'b6\'e0\'b8\'f6\'b9\'db\'b2\'ec\'d5\'df\'a3\'ac\'d3\'c3\'c0\'b4\'cd\'a8\'d6\'aa\'c6\'e4\'d4\'da\'b3\'cc\'d0\'f2\'d6\'d0\'b7\'a2\'c9\'fa\'c1\'cb\'c4\'b3\'b8\'f6\'ca\'c2\'bc\'fe\'b5\'c4\'cf\'fb\'cf\'a2\'a1\'a3\'cd\'a8\'d6\'aa\'bb\'fa\'d6\'c6\'b5\'c4\'ba\'cb\'d0\'c4\'be\'cd\'ca\'c7\'d2\'bb\'b8\'f6\'bd\'f8\'b3\'cc\'d6\'d0\'b5\'a5\'d2\'bb\'ca\'b5\'c0\'fd\'b5\'c4\'b6\'d4\'cf\'f3\'a3\'ac\'b1\'bb\'bd\'d0\'d7\'f6\'cd\'a8\'d6\'aa\'d6\'d0\'d0\'c4\'a3\'a8NSNotificationCenter\'a3\'a9\'a1\'a3\'b5\'b1\'d2\'bb\'b8\'f6\'b6\'d4\'cf\'f3\'b7\'a2\'b2\'bc\'d2\'bb\'b8\'f6\'cd\'a8\'d6\'aa\'ca\'b1\'a3\'ac\'cd\'a8\'d6\'aa\'bb\'e1\'cf\'c8\'b1\'bb\'b7\'a2\'b2\'bc \'b5\'bd\'cd\'a8\'d6\'aa\'d6\'d0\'d0\'c4\'a1\'a3\'cd\'a8\'d6\'aa\'d6\'d0\'d0\'c4\'b5\'c4\'d7\'f7\'d3\'c3\'cf\'e0\'b5\'b1\'d3\'da\'ca\'c7\'bd\'bb\'c1\'f7\'cb\'f9\'a3\'ac\'d7\'f7\'ce\'aa\'cd\'a8\'d6\'aa\'b5\'c4\'b9\'e3\'b2\'a5\'d6\'d0\'d0\'c4\'a1\'a3\'b3\'cc\'d0\'f2\'d6\'d0\'c6\'e4\'cb\'fb\'d0\'e8\'d2\'aa\'b8\'d0\'d6\'aa\'b8\'c3\'ca\'c2\'bc\'fe\'b5\'c4\'b6\'d4\'cf\'f3\'cd\'a8\'b9\'fd\'cf\'f2\'cd\'a8\'d6\'aa\'d6\'d0\'d0\'c4\'d7\'a2\'b2\'e1\'be\'cd\'bf\'c9\'d2\'d4\'b4\'ef\'b5\'bd\'d4\'da\'ca\'c2\'bc\'fe\'b7\'a2\'c9\'fa\'ca\'b1\'b1\'bb\'cd\'a8\'d6\'aa\'d6\'d0\'d0\'c4\'bc\'b0 \'ca\'b1\'cd\'a8\'d6\'aa\'b5\'bd\'b5\'c3\'c4\'bf\'b5\'c4\'a1\'a3\
+\
+	2.\'c8\'e7\'ba\'ce\'d7\'a2\'b2\'e1\'cd\'a8\'d6\'aa\
+	- (void)addObserver:(id)observer selector:(SEL)aSelector name:(NSString *)aName object:(id)anObject;\
+\
+	3.\'c8\'e7\'ba\'ce\'b7\'a2\'cb\'cd\'cd\'a8\'d6\'aa\
+	- (void)postNotificationName:(NSString *)aName object:(id)anObject;\
+\
+	4.\'d2\'c6\'b3\'fd\'cd\'a8\'d6\'aa\'d6\'d0\'d0\'c4\
+	- (void)removeObserver:(id)observer name:(NSString *)aName object:(id)anObject;\
+	\
+	5.\'cd\'a8\'d6\'aa\'d6\'d0\'d0\'c4\'d3\'eb\'b4\'fa\'c0\'ed,Block\'c7\'f8\'b1\'f0\
+	\'b4\'fa\'c0\'ed,Block:   \'d2\'bb\'b6\'d4\'d2\'bb\
+	\'cd\'a8\'d6\'aa\'d6\'d0\'d0\'c4:     \'d2\'bb\'b6\'d4\'b6\'e0\
+	\'ca\'b9\'d3\'c3\'cd\'a8\'d6\'aa\'d6\'d0\'d0\'c4\'bb\'e1\'cc\'e1\'b8\'df\'b3\'cc\'d0\'f2\'b5\'c4\'f1\'ee\'ba\'cf\'b6\'c8.\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+
+\fs48 \cf0 \
+================================\
+NSUserDefaults\
+      1\'a3\'a9NSUserDefaults\'d7\'f7\'d3\'c3\
+		 NSUserDefaults\'b6\'d4\'cf\'f3\'ca\'c7\'d3\'c3\'c0\'b4\'b1\'a3\'b4\'e6\'a3\'ac\'bb\'d6\'b8\'b4\'d3\'a6\'d3\'c3\'b3\'cc\'d0\'f2\'cf\'e0\'b9\'d8\'b5\'c4\'c6\'ab\'ba\'c3\'c9\'e8\'d6\'c3\'a3\'ac\'c5\'e4\'d6\'c3\'ca\'fd\'be\'dd\'b5\'c8\'b5\'c8\
+		 
+\fs40 \CocoaLigature0 \'d3\'a6\'d3\'c3\'b3\'a1\'be\'b0\'a3\'ba
+\f0 \
+\pard\tx377\pardeftab377\pardirnatural
+\cf0      		1.
+\f1 \'b4\'a2\'b4\'e6
+\f0 APP
+\f1 \'d3\'c3\'bb\'a7\'b5\'c4\'d5\'cb\'bb\'a7\'ba\'cd\'c3\'dc\'c2\'eb
+\f0 \
+     		2.
+\f1 \'ca\'b6\'b1\'f0\'ca\'c7\'b7\'f1\'ce\'aa\'b5\'da\'d2\'bb\'b4\'ce\'ca\'b9\'d3\'c3\'b8\'c3
+\f0 APP
+\f1\fs48 \CocoaLigature1 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+\cf0       2\'a3\'a9NSUserDefaults\'bb\'f1\'c8\'a1\
+ 		+ (NSUserDefaults *)standardUserDefaults\
+      3\'a3\'a9\'b4\'e6\'b4\'a2\'ca\'fd\'be\'dd\
+		- (void)set[\'ca\'fd\'be\'dd\'c0\'e0\'d0\'cd]:(\'ca\'fd\'be\'dd\'c0\'e0\'d0\'cd)value forKey:(NSString *)defaultName;\
+      4\'a3\'a9\'cd\'ac\'b2\'bd\'ca\'fd\'be\'dd\
+		- (BOOL)synchronize;\
+      5\'a3\'a9\'b6\'c1\'c8\'a1\'ca\'fd\'be\'dd\
+		- (\'ca\'fd\'be\'dd\'c0\'e0\'d0\'cd)[\'ca\'fd\'be\'dd\'c0\'e0\'d0\'cd]ForKey:(NSString *)defaultName;\
+\
+=======================\
+UITabBarController(\'b7\'d6\'c0\'b8\'bf\'d8\'d6\'c6\'c6\'f7)\
+    1.\'b4\'b4\'bd\'a8\'b7\'bd\'ca\'bd\
+    2.\'c8\'e7\'ba\'ce\'b0\'d1\'d2\'bb\'b8\'f6UIViewController\'bc\'d3\'c8\'eb\'b5\'bdUITabBarController\
+    3.\'c8\'e7\'ba\'ce\'b0\'d1\'d2\'bb\'b8\'f6UINavigationContrller\'bc\'d3\'c8\'eb\'b5\'bdUITabBarController\
+    4.\'c9\'e8\'d6\'c3\'ba\'cd\'bb\'f1\'c8\'a1\'d1\'a1\'d6\'d0\'cf\'ee\
+	@property(nonatomic) NSUInteger selectedIndex;\
+\
+=======================\
+UITabBarItem\
+    1.UITabBarItem\'ba\'cdUITabBarContrller\'b9\'d8\'cf\'b5\
+		tabBarItem\'ca\'c7UIViewController\'b5\'c4\'d2\'bb\'b8\'f6\'ca\'f4\'d0\'d4\
+	\'d5\'e2\'b8\'f6\'ca\'f4\'d0\'d4\'ca\'c7\'ce\'aaUITabBarContrller\'b7\'fe\'ce\'f1\'b5\'c4\
+    2.\'b4\'b4\'bd\'a8\'ce\'c4\'d7\'d6\'ba\'cd\'cd\'bc\'c6\'ac\'b5\'c4UITabBarItem \
+      	- (id)initWithTitle:(NSString *)title \
+		      image:(UIImage *)image \
+			tag:(NSInteger)tag;\
+\
+	\'d7\'a2\'d2\'e2:ios7\'ba\'f3\'cc\'ed\'bc\'d3\'b5\'c4\'ba\'af\'ca\'fd\
+	- (instancetype)initWithTitle:(NSString *)title \
+				image:(UIImage *)image \
+			selectedImage:(UIImage *)selectedImage\
+\
+    3.\'b4\'b4\'bd\'a8\'cf\'b5\'cd\'b3\'d7\'d4\'b4\'f8\'b5\'c4UITabBarSystemItem\
+	- (id)initWithTabBarSystemItem:(UITabBarSystemItem)systemItem \
+				   tag:(NSInteger)tag;\
+\
+    4.\'c9\'e8\'d6\'c3UITabBarItem\'bb\'d5\'b1\'ea\
+      @property(nonatomic,copy) NSString *badgeValue\
+    \
+\
+=======================\
+UITabBarController\'ca\'b9\'d3\'c3\'d7\'a2\'d2\'e2\
+    1.UITabBarController\'ca\'fd\'c1\'bf\'cf\'de\'d6\'c6\
+      1\'a3\'a9tabBarController\'d6\'d0\'d7\'ee\'b6\'e0\'d6\'bb\'d4\'ca\'d0\'ed\'cf\'d4\'ca\'be5\'b8\'f6\'ca\'d3\'cd\'bc\'bf\'d8\'d6\'c6\'c6\'f7\
+	\'b3\'ac\'b3\'f6\'b5\'c4\'cf\'b5\'cd\'b3\'bb\'e1\'d7\'d4\'b6\'af\'cc\'ed\'bc\'d3\'d2\'bb\'b8\'f6more\
+    2.UITabBarController\'b1\'e0\'bc\'ad\
+	\'d3\'c3\'bb\'a7\'bf\'c9\'d2\'d4\'cb\'e6\'d2\'e2\'c9\'e8\'d6\'c3\'c3\'bf\'b8\'f6\'bf\'d8\'d6\'c6\'b5\'c4\'cf\'d4\'ca\'be\'b5\'c4\'ce\'bb\'d6\'c3\
+\
+=======================\
+UITabBarController\'b4\'fa\'c0\'ed\
+  \
+    1.UITabBarControllerDelegate\'ca\'b9\'d3\'c3\
+      1\'a3\'a9\'b1\'bb\'d1\'a1\'d6\'d0\'b5\'c4\'ca\'b1\'ba\'f2\
+    	- (void)tabBarController:(UITabBarController *)tabBarController \
+     	 didSelectViewController:(UIViewController *)viewController\
+\
+      2\'a3\'a9\'bf\'d8\'d6\'c6TabBarItem\'c4\'dc\'b2\'bb\'c4\'dc\'d1\'a1\'d6\'d0\
+    	- (BOOL)tabBarController:(UITabBarController *)tabBarController \
+      shouldSelectViewController:(UIViewController *)viewController;\
+\
+      3\'a3\'a9\'cf\'c2\'c3\'e6\'d5\'e2\'c8\'fd\'b8\'f6\'b7\'bd\'b7\'a8\'d6\'f7\'d2\'aa\'d3\'c3\'d3\'da\'bc\'e0\'b2\'e2\'b6\'d4moreViewController\'d6\'d0\'b6\'d4view controller\'b5\'c4edit\'b2\'d9\'d7\'f7\
+    	- (void)tabBarController:(UITabBarController *)tabBarController \
+  	willBeginCustomizingViewControllers:(NSArray *)viewControllers;\
+\
+    	- (void)tabBarController:(UITabBarController *)tabBarController \
+	willEndCustomizingViewControllers:(NSArray *)viewControllers\
+	 	     changed:(BOOL)changed;\
+   \
+    	- (void)tabBarController:(UITabBarController *)tabBarController \
+	didEndCustomizingViewControllers:(NSArray *)viewControllers \
+	             	 changed:(BOOL)changed;\
+\
+	2.\'bc\'c7\'c2\'bc\'d3\'c3\'bb\'a7\'d7\'ee\'ba\'f3\'d2\'bb\'b4\'ce\'b5\'e3\'bb\'f7\'b5\'c4viewController\
+\
+=======================\
+\'d7\'d4\'b6\'a8\'d2\'e5TabBarController\
+    tabBar\'b5\'c4\'b8\'df\'b6\'c8\'ce\'aa49\
+    1.\'d4\'da\'d7\'d4\'b6\'a8\'d2\'e5\'bf\'d8\'bc\'fe\'d6\'d0\'bc\'d3\'c8\'eb\'cd\'bc\'c6\'ac\'b0\'b4\'c5\'a5\'a3\'ac\'c1\'aa\'b6\'af\'c7\'d0\'bb\'bb\'ca\'d3\'cd\'bc\
+\
+\'bf\'ce\'ba\'f3\'d7\'f7\'d2\'b5:\'d0\'c2\'bd\'a8\'d2\'bb\'b8\'f6tabbarController,\'cb\'fc\'d3\'d0\'cb\'c4\'b8\'f6\'bf\'d8\'d6\'c6\'c6\'f7.\'d4\'da\'b5\'da\'cb\'c4\'b8\'f6controller\'d6\'d0,\'b7\'c5\'d6\'c3\'c8\'fd\'b8\'f6slider.\'bb\'ac\'b6\'af\'c8\'fd\'b8\'f6slider\'c0\'b4\'b8\'c4\'b1\'e4\'cb\'c4\'b8\'f6\'bf\'d8\'d6\'c6\'c6\'f7\'b5\'c4\'b1\'b3\'be\'b0\'d1\'d5\'c9\'ab.\'d3\'c3Slider\'c0\'b4\'bf\'d8\'d6\'c6RGB\'d1\'d5\'c9\'ab.\'b4\'b4\'bd\'a8color\'b6\'d4\'cf\'f3\'ca\'b1,\'bf\'c9\'d2\'d4\'d3\'c30.0-1.0\'d6\'ae\'bc\'e4\'b5\'c4\'d6\'b5.\
+\'d2\'aa\'c7\'f3:\'ca\'b9\'d3\'c3\'cd\'a8\'d6\'aa\'d6\'d0\'d0\'c4\'c0\'b4\'ca\'b5\'cf\'d6\
+\
+\
+\
+\
+\
+\
+}

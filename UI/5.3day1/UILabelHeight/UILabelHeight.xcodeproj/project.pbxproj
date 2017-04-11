@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		872B6FDA1CD884F9005363D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 872B6FD91CD884F9005363D8 /* main.m */; };
+		872B6FDD1CD884F9005363D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 872B6FDC1CD884F9005363D8 /* AppDelegate.m */; };
+		872B6FE51CD884F9005363D8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 872B6FE41CD884F9005363D8 /* Images.xcassets */; };
+		872B6FE81CD884F9005363D8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 872B6FE61CD884F9005363D8 /* LaunchScreen.xib */; };
+		872B6FF41CD884F9005363D8 /* UILabelHeightTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 872B6FF31CD884F9005363D8 /* UILabelHeightTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		872B6FEE1CD884F9005363D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 872B6FCC1CD884F9005363D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 872B6FD31CD884F9005363D8;
+			remoteInfo = UILabelHeight;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		872B6FD41CD884F9005363D8 /* UILabelHeight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UILabelHeight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		872B6FD81CD884F9005363D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		872B6FD91CD884F9005363D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		872B6FDB1CD884F9005363D8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		872B6FDC1CD884F9005363D8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		872B6FE41CD884F9005363D8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		872B6FE71CD884F9005363D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		872B6FED1CD884F9005363D8 /* UILabelHeightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UILabelHeightTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		872B6FF21CD884F9005363D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		872B6FF31CD884F9005363D8 /* UILabelHeightTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UILabelHeightTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		872B6FD11CD884F9005363D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		872B6FEA1CD884F9005363D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		872B6FCB1CD884F9005363D8 = {
+			isa = PBXGroup;
+			children = (
+				872B6FD61CD884F9005363D8 /* UILabelHeight */,
+				872B6FF01CD884F9005363D8 /* UILabelHeightTests */,
+				872B6FD51CD884F9005363D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		872B6FD51CD884F9005363D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				872B6FD41CD884F9005363D8 /* UILabelHeight.app */,
+				872B6FED1CD884F9005363D8 /* UILabelHeightTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		872B6FD61CD884F9005363D8 /* UILabelHeight */ = {
+			isa = PBXGroup;
+			children = (
+				872B6FDB1CD884F9005363D8 /* AppDelegate.h */,
+				872B6FDC1CD884F9005363D8 /* AppDelegate.m */,
+				872B6FE41CD884F9005363D8 /* Images.xcassets */,
+				872B6FE61CD884F9005363D8 /* LaunchScreen.xib */,
+				872B6FD71CD884F9005363D8 /* Supporting Files */,
+			);
+			path = UILabelHeight;
+			sourceTree = "<group>";
+		};
+		872B6FD71CD884F9005363D8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				872B6FD81CD884F9005363D8 /* Info.plist */,
+				872B6FD91CD884F9005363D8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		872B6FF01CD884F9005363D8 /* UILabelHeightTests */ = {
+			isa = PBXGroup;
+			children = (
+				872B6FF31CD884F9005363D8 /* UILabelHeightTests.m */,
+				872B6FF11CD884F9005363D8 /* Supporting Files */,
+			);
+			path = UILabelHeightTests;
+			sourceTree = "<group>";
+		};
+		872B6FF11CD884F9005363D8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				872B6FF21CD884F9005363D8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		872B6FD31CD884F9005363D8 /* UILabelHeight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 872B6FF71CD884F9005363D8 /* Build configuration list for PBXNativeTarget "UILabelHeight" */;
+			buildPhases = (
+				872B6FD01CD884F9005363D8 /* Sources */,
+				872B6FD11CD884F9005363D8 /* Frameworks */,
+				872B6FD21CD884F9005363D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UILabelHeight;
+			productName = UILabelHeight;
+			productReference = 872B6FD41CD884F9005363D8 /* UILabelHeight.app */;
+			productType = "com.apple.product-type.application";
+		};
+		872B6FEC1CD884F9005363D8 /* UILabelHeightTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 872B6FFA1CD884F9005363D8 /* Build configuration list for PBXNativeTarget "UILabelHeightTests" */;
+			buildPhases = (
+				872B6FE91CD884F9005363D8 /* Sources */,
+				872B6FEA1CD884F9005363D8 /* Frameworks */,
+				872B6FEB1CD884F9005363D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				872B6FEF1CD884F9005363D8 /* PBXTargetDependency */,
+			);
+			name = UILabelHeightTests;
+			productName = UILabelHeightTests;
+			productReference = 872B6FED1CD884F9005363D8 /* UILabelHeightTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		872B6FCC1CD884F9005363D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "刘桂林";
+				TargetAttributes = {
+					872B6FD31CD884F9005363D8 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					872B6FEC1CD884F9005363D8 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 872B6FD31CD884F9005363D8;
+					};
+				};
+			};
+			buildConfigurationList = 872B6FCF1CD884F9005363D8 /* Build configuration list for PBXProject "UILabelHeight" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 872B6FCB1CD884F9005363D8;
+			productRefGroup = 872B6FD51CD884F9005363D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				872B6FD31CD884F9005363D8 /* UILabelHeight */,
+				872B6FEC1CD884F9005363D8 /* UILabelHeightTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		872B6FD21CD884F9005363D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				872B6FE81CD884F9005363D8 /* LaunchScreen.xib in Resources */,
+				872B6FE51CD884F9005363D8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		872B6FEB1CD884F9005363D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		872B6FD01CD884F9005363D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				872B6FDD1CD884F9005363D8 /* AppDelegate.m in Sources */,
+				872B6FDA1CD884F9005363D8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		872B6FE91CD884F9005363D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				872B6FF41CD884F9005363D8 /* UILabelHeightTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		872B6FEF1CD884F9005363D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 872B6FD31CD884F9005363D8 /* UILabelHeight */;
+			targetProxy = 872B6FEE1CD884F9005363D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		872B6FE61CD884F9005363D8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				872B6FE71CD884F9005363D8 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		872B6FF51CD884F9005363D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		872B6FF61CD884F9005363D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		872B6FF81CD884F9005363D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UILabelHeight/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		872B6FF91CD884F9005363D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UILabelHeight/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		872B6FFB1CD884F9005363D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = UILabelHeightTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UILabelHeight.app/UILabelHeight";
+			};
+			name = Debug;
+		};
+		872B6FFC1CD884F9005363D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = UILabelHeightTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UILabelHeight.app/UILabelHeight";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		872B6FCF1CD884F9005363D8 /* Build configuration list for PBXProject "UILabelHeight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				872B6FF51CD884F9005363D8 /* Debug */,
+				872B6FF61CD884F9005363D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		872B6FF71CD884F9005363D8 /* Build configuration list for PBXNativeTarget "UILabelHeight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				872B6FF81CD884F9005363D8 /* Debug */,
+				872B6FF91CD884F9005363D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		872B6FFA1CD884F9005363D8 /* Build configuration list for PBXNativeTarget "UILabelHeightTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				872B6FFB1CD884F9005363D8 /* Debug */,
+				872B6FFC1CD884F9005363D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 872B6FCC1CD884F9005363D8 /* Project object */;
+}

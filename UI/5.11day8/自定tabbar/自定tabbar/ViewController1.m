@@ -1,0 +1,59 @@
+//
+//  ViewController1.m
+//  tabbar自定义图片
+//
+//  Created by 刘桂林 on 16/5/11.
+//  Copyright (c) 2016年 刘桂林. All rights reserved.
+//
+
+#import "ViewController1.h"
+#import "TestViewController.h"
+#import "CustomTabbarController.h"
+@interface ViewController1 ()
+
+@end
+
+@implementation ViewController1
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    // Do any additional setup after loading the view.
+}
+
+- (void)viewWillAppear:(BOOL)animated
+{
+    CustomTabbarController *customTabbar = (CustomTabbarController *)self.tabBarController;
+    
+    customTabbar.customView.hidden = NO;
+}
+
+- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
+{
+    TestViewController *test = [[TestViewController alloc] init];
+    
+    //隐藏系统tabbar
+//    test.hidesBottomBarWhenPushed = YES;
+    
+    CustomTabbarController *customTabbar = (CustomTabbarController *)self.tabBarController;
+    
+    customTabbar.customView.hidden = YES;
+    
+    [self.navigationController pushViewController:test animated:YES];
+}
+
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
+
+/*
+#pragma mark - Navigation
+
+// In a storyboard-based application, you will often want to do a little preparation before navigation
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    // Get the new view controller using [segue destinationViewController].
+    // Pass the selected object to the new view controller.
+}
+*/
+
+@end
