@@ -1,0 +1,722 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		045501341CC47A5B00C8CC27 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 045501331CC47A5B00C8CC27 /* main.m */; };
+		045501411CC48F9C00C8CC27 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 045501401CC48F9C00C8CC27 /* main.m */; };
+		0455014C1CC4B27500C8CC27 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0455014B1CC4B27500C8CC27 /* main.m */; };
+		045501571CC4B74300C8CC27 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 045501561CC4B74300C8CC27 /* main.m */; };
+		045501621CC4C0B900C8CC27 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 045501611CC4C0B900C8CC27 /* main.m */; };
+		045501681CC4C0D300C8CC27 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 045501671CC4C0D300C8CC27 /* Person.m */; settings = {ASSET_TAGS = (); }; };
+		0455017B1CC4D44B00C8CC27 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0455017A1CC4D44B00C8CC27 /* main.m */; };
+		045501811CC4D75000C8CC27 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 045501801CC4D75000C8CC27 /* Person.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0455012E1CC47A5B00C8CC27 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		0455013C1CC48F9C00C8CC27 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		045501471CC4B27500C8CC27 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		045501521CC4B74300C8CC27 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		0455015D1CC4C0B900C8CC27 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		0455016B1CC4D41100C8CC27 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		045501761CC4D44B00C8CC27 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		045501301CC47A5B00C8CC27 /* 1.NSDistionary的初认识 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1.NSDistionary的初认识"; sourceTree = BUILT_PRODUCTS_DIR; };
+		045501331CC47A5B00C8CC27 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0455013E1CC48F9C00C8CC27 /* 2.NSDictionary的常用方法 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "2.NSDictionary的常用方法"; sourceTree = BUILT_PRODUCTS_DIR; };
+		045501401CC48F9C00C8CC27 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		045501491CC4B27500C8CC27 /* 3.字典的遍历 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "3.字典的遍历"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0455014B1CC4B27500C8CC27 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		045501541CC4B74300C8CC27 /* 4.可变字典的使用 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "4.可变字典的使用"; sourceTree = BUILT_PRODUCTS_DIR; };
+		045501561CC4B74300C8CC27 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0455015F1CC4C0B900C8CC27 /* 练习1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "练习1"; sourceTree = BUILT_PRODUCTS_DIR; };
+		045501611CC4C0B900C8CC27 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		045501661CC4C0D300C8CC27 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		045501671CC4C0D300C8CC27 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		0455016D1CC4D41100C8CC27 /* SEL的使用 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "SEL的使用"; sourceTree = BUILT_PRODUCTS_DIR; };
+		045501781CC4D44B00C8CC27 /* 5.SEL的使用 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "5.SEL的使用"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0455017A1CC4D44B00C8CC27 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0455017F1CC4D75000C8CC27 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		045501801CC4D75000C8CC27 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0455012D1CC47A5B00C8CC27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0455013B1CC48F9C00C8CC27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		045501461CC4B27500C8CC27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		045501511CC4B74300C8CC27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0455015C1CC4C0B900C8CC27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0455016A1CC4D41100C8CC27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		045501751CC4D44B00C8CC27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		045501271CC47A5A00C8CC27 = {
+			isa = PBXGroup;
+			children = (
+				045501321CC47A5B00C8CC27 /* 1.NSDistionary的初认识 */,
+				0455013F1CC48F9C00C8CC27 /* 2.NSDictionary的常用方法 */,
+				0455014A1CC4B27500C8CC27 /* 3.字典的遍历 */,
+				045501551CC4B74300C8CC27 /* 4.可变字典的使用 */,
+				045501601CC4C0B900C8CC27 /* 练习1 */,
+				045501791CC4D44B00C8CC27 /* 5.SEL的使用 */,
+				045501311CC47A5B00C8CC27 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		045501311CC47A5B00C8CC27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				045501301CC47A5B00C8CC27 /* 1.NSDistionary的初认识 */,
+				0455013E1CC48F9C00C8CC27 /* 2.NSDictionary的常用方法 */,
+				045501491CC4B27500C8CC27 /* 3.字典的遍历 */,
+				045501541CC4B74300C8CC27 /* 4.可变字典的使用 */,
+				0455015F1CC4C0B900C8CC27 /* 练习1 */,
+				0455016D1CC4D41100C8CC27 /* SEL的使用 */,
+				045501781CC4D44B00C8CC27 /* 5.SEL的使用 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		045501321CC47A5B00C8CC27 /* 1.NSDistionary的初认识 */ = {
+			isa = PBXGroup;
+			children = (
+				045501331CC47A5B00C8CC27 /* main.m */,
+			);
+			path = "1.NSDistionary的初认识";
+			sourceTree = "<group>";
+		};
+		0455013F1CC48F9C00C8CC27 /* 2.NSDictionary的常用方法 */ = {
+			isa = PBXGroup;
+			children = (
+				045501401CC48F9C00C8CC27 /* main.m */,
+			);
+			path = "2.NSDictionary的常用方法";
+			sourceTree = "<group>";
+		};
+		0455014A1CC4B27500C8CC27 /* 3.字典的遍历 */ = {
+			isa = PBXGroup;
+			children = (
+				0455014B1CC4B27500C8CC27 /* main.m */,
+			);
+			path = "3.字典的遍历";
+			sourceTree = "<group>";
+		};
+		045501551CC4B74300C8CC27 /* 4.可变字典的使用 */ = {
+			isa = PBXGroup;
+			children = (
+				045501561CC4B74300C8CC27 /* main.m */,
+			);
+			path = "4.可变字典的使用";
+			sourceTree = "<group>";
+		};
+		045501601CC4C0B900C8CC27 /* 练习1 */ = {
+			isa = PBXGroup;
+			children = (
+				045501611CC4C0B900C8CC27 /* main.m */,
+				045501661CC4C0D300C8CC27 /* Person.h */,
+				045501671CC4C0D300C8CC27 /* Person.m */,
+			);
+			path = "练习1";
+			sourceTree = "<group>";
+		};
+		045501791CC4D44B00C8CC27 /* 5.SEL的使用 */ = {
+			isa = PBXGroup;
+			children = (
+				0455017A1CC4D44B00C8CC27 /* main.m */,
+				0455017F1CC4D75000C8CC27 /* Person.h */,
+				045501801CC4D75000C8CC27 /* Person.m */,
+			);
+			path = "5.SEL的使用";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0455012F1CC47A5B00C8CC27 /* 1.NSDistionary的初认识 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 045501371CC47A5B00C8CC27 /* Build configuration list for PBXNativeTarget "1.NSDistionary的初认识" */;
+			buildPhases = (
+				0455012C1CC47A5B00C8CC27 /* Sources */,
+				0455012D1CC47A5B00C8CC27 /* Frameworks */,
+				0455012E1CC47A5B00C8CC27 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "1.NSDistionary的初认识";
+			productName = "1.NSDistionary的初认识";
+			productReference = 045501301CC47A5B00C8CC27 /* 1.NSDistionary的初认识 */;
+			productType = "com.apple.product-type.tool";
+		};
+		0455013D1CC48F9C00C8CC27 /* 2.NSDictionary的常用方法 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 045501421CC48F9C00C8CC27 /* Build configuration list for PBXNativeTarget "2.NSDictionary的常用方法" */;
+			buildPhases = (
+				0455013A1CC48F9C00C8CC27 /* Sources */,
+				0455013B1CC48F9C00C8CC27 /* Frameworks */,
+				0455013C1CC48F9C00C8CC27 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "2.NSDictionary的常用方法";
+			productName = "2.NSDictionary的常用方法";
+			productReference = 0455013E1CC48F9C00C8CC27 /* 2.NSDictionary的常用方法 */;
+			productType = "com.apple.product-type.tool";
+		};
+		045501481CC4B27500C8CC27 /* 3.字典的遍历 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0455014D1CC4B27500C8CC27 /* Build configuration list for PBXNativeTarget "3.字典的遍历" */;
+			buildPhases = (
+				045501451CC4B27500C8CC27 /* Sources */,
+				045501461CC4B27500C8CC27 /* Frameworks */,
+				045501471CC4B27500C8CC27 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "3.字典的遍历";
+			productName = "3.字典的遍历";
+			productReference = 045501491CC4B27500C8CC27 /* 3.字典的遍历 */;
+			productType = "com.apple.product-type.tool";
+		};
+		045501531CC4B74300C8CC27 /* 4.可变字典的使用 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 045501581CC4B74300C8CC27 /* Build configuration list for PBXNativeTarget "4.可变字典的使用" */;
+			buildPhases = (
+				045501501CC4B74300C8CC27 /* Sources */,
+				045501511CC4B74300C8CC27 /* Frameworks */,
+				045501521CC4B74300C8CC27 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "4.可变字典的使用";
+			productName = "4.可变字典的使用";
+			productReference = 045501541CC4B74300C8CC27 /* 4.可变字典的使用 */;
+			productType = "com.apple.product-type.tool";
+		};
+		0455015E1CC4C0B900C8CC27 /* 练习1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 045501631CC4C0B900C8CC27 /* Build configuration list for PBXNativeTarget "练习1" */;
+			buildPhases = (
+				0455015B1CC4C0B900C8CC27 /* Sources */,
+				0455015C1CC4C0B900C8CC27 /* Frameworks */,
+				0455015D1CC4C0B900C8CC27 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "练习1";
+			productName = "练习1";
+			productReference = 0455015F1CC4C0B900C8CC27 /* 练习1 */;
+			productType = "com.apple.product-type.tool";
+		};
+		0455016C1CC4D41100C8CC27 /* SEL的使用 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 045501711CC4D41100C8CC27 /* Build configuration list for PBXNativeTarget "SEL的使用" */;
+			buildPhases = (
+				045501691CC4D41100C8CC27 /* Sources */,
+				0455016A1CC4D41100C8CC27 /* Frameworks */,
+				0455016B1CC4D41100C8CC27 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SEL的使用";
+			productName = "SEL的使用";
+			productReference = 0455016D1CC4D41100C8CC27 /* SEL的使用 */;
+			productType = "com.apple.product-type.tool";
+		};
+		045501771CC4D44B00C8CC27 /* 5.SEL的使用 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0455017C1CC4D44B00C8CC27 /* Build configuration list for PBXNativeTarget "5.SEL的使用" */;
+			buildPhases = (
+				045501741CC4D44B00C8CC27 /* Sources */,
+				045501751CC4D44B00C8CC27 /* Frameworks */,
+				045501761CC4D44B00C8CC27 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "5.SEL的使用";
+			productName = "5.SEL的使用";
+			productReference = 045501781CC4D44B00C8CC27 /* 5.SEL的使用 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		045501281CC47A5A00C8CC27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = mac;
+				TargetAttributes = {
+					0455012F1CC47A5B00C8CC27 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					0455013D1CC48F9C00C8CC27 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					045501481CC4B27500C8CC27 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					045501531CC4B74300C8CC27 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					0455015E1CC4C0B900C8CC27 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					0455016C1CC4D41100C8CC27 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					045501771CC4D44B00C8CC27 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 0455012B1CC47A5A00C8CC27 /* Build configuration list for PBXProject "1.NSDistionary的初认识" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 045501271CC47A5A00C8CC27;
+			productRefGroup = 045501311CC47A5B00C8CC27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0455012F1CC47A5B00C8CC27 /* 1.NSDistionary的初认识 */,
+				0455013D1CC48F9C00C8CC27 /* 2.NSDictionary的常用方法 */,
+				045501481CC4B27500C8CC27 /* 3.字典的遍历 */,
+				045501531CC4B74300C8CC27 /* 4.可变字典的使用 */,
+				0455015E1CC4C0B900C8CC27 /* 练习1 */,
+				0455016C1CC4D41100C8CC27 /* SEL的使用 */,
+				045501771CC4D44B00C8CC27 /* 5.SEL的使用 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0455012C1CC47A5B00C8CC27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				045501341CC47A5B00C8CC27 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0455013A1CC48F9C00C8CC27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				045501411CC48F9C00C8CC27 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		045501451CC4B27500C8CC27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0455014C1CC4B27500C8CC27 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		045501501CC4B74300C8CC27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				045501571CC4B74300C8CC27 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0455015B1CC4C0B900C8CC27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				045501681CC4C0D300C8CC27 /* Person.m in Sources */,
+				045501621CC4C0B900C8CC27 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		045501691CC4D41100C8CC27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		045501741CC4D44B00C8CC27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				045501811CC4D75000C8CC27 /* Person.m in Sources */,
+				0455017B1CC4D44B00C8CC27 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		045501351CC47A5B00C8CC27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		045501361CC47A5B00C8CC27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		045501381CC47A5B00C8CC27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		045501391CC47A5B00C8CC27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		045501431CC48F9C00C8CC27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		045501441CC48F9C00C8CC27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0455014E1CC4B27500C8CC27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0455014F1CC4B27500C8CC27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		045501591CC4B74300C8CC27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0455015A1CC4B74300C8CC27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		045501641CC4C0B900C8CC27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		045501651CC4C0B900C8CC27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		045501721CC4D41100C8CC27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		045501731CC4D41100C8CC27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0455017D1CC4D44B00C8CC27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0455017E1CC4D44B00C8CC27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0455012B1CC47A5A00C8CC27 /* Build configuration list for PBXProject "1.NSDistionary的初认识" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				045501351CC47A5B00C8CC27 /* Debug */,
+				045501361CC47A5B00C8CC27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		045501371CC47A5B00C8CC27 /* Build configuration list for PBXNativeTarget "1.NSDistionary的初认识" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				045501381CC47A5B00C8CC27 /* Debug */,
+				045501391CC47A5B00C8CC27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		045501421CC48F9C00C8CC27 /* Build configuration list for PBXNativeTarget "2.NSDictionary的常用方法" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				045501431CC48F9C00C8CC27 /* Debug */,
+				045501441CC48F9C00C8CC27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0455014D1CC4B27500C8CC27 /* Build configuration list for PBXNativeTarget "3.字典的遍历" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0455014E1CC4B27500C8CC27 /* Debug */,
+				0455014F1CC4B27500C8CC27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		045501581CC4B74300C8CC27 /* Build configuration list for PBXNativeTarget "4.可变字典的使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				045501591CC4B74300C8CC27 /* Debug */,
+				0455015A1CC4B74300C8CC27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		045501631CC4C0B900C8CC27 /* Build configuration list for PBXNativeTarget "练习1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				045501641CC4C0B900C8CC27 /* Debug */,
+				045501651CC4C0B900C8CC27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		045501711CC4D41100C8CC27 /* Build configuration list for PBXNativeTarget "SEL的使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				045501721CC4D41100C8CC27 /* Debug */,
+				045501731CC4D41100C8CC27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0455017C1CC4D44B00C8CC27 /* Build configuration list for PBXNativeTarget "5.SEL的使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0455017D1CC4D44B00C8CC27 /* Debug */,
+				0455017E1CC4D44B00C8CC27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 045501281CC47A5A00C8CC27 /* Project object */;
+}

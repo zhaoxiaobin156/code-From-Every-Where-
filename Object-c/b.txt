@@ -1,0 +1,9 @@
+Build Setting中
+
+1）搜索 Header Search Paths 加入路径 /usr/include/libxml2
+
+2）搜索 Other Linker flag 加入库文件 -lxml2
+
+Build Phases中
+
+3）加编译选项 -fno-objc-arc
